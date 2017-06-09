@@ -6,11 +6,11 @@ create table ems_profession(
        
 );
 
-insert into ems_profession values('0001','计算机科学与技术',null);
-insert into ems_profession values('0002','电子信息技术',null);
-insert into ems_profession values('0003','装潢设计',null);
-insert into ems_profession values('0004','服装表演',null);
-insert into ems_profession values('0005','机械制造',null);
+insert into ems_profession values('0001','录脝脣茫禄煤驴脝脩搂脫毛录录脢玫',null);
+insert into ems_profession values('0002','碌莽脳脫脨脜脧垄录录脢玫',null);
+insert into ems_profession values('0003','脳掳盲锚脡猫录脝',null);
+insert into ems_profession values('0004','路镁脳掳卤铆脩脻',null);
+insert into ems_profession values('0005','禄煤脨碌脰脝脭矛',null);
 
 
 
@@ -32,16 +32,16 @@ create table EMS_TEACHER(
        
 );
 
-insert into ems_teacher values('0001','0001','钟坚成',null,'男','420623198012341256',null,'湖南师范大学',null,'0001','汉族','博士','讲师',0);
-insert into ems_teacher values('0002','0002','张健军',null,'男','420623198012341246',null,'湖南师范大学',null,'0001','汉族','博士','讲师',1);
-insert into ems_teacher values('0003','0003','杨家红',null,'男','420623198012341236',null,'湖南师范大学',null,'0001','汉族','博士','教授',1);
-insert into ems_teacher values('0004','0004','付玉',null,  '女','420623198012341232',null,'湖南师范大学',null,'0001','汉族','博士','副教授',1);
-insert into ems_teacher values('0005','0005','肖柳明',null,'女','420623198012341237',null,'湖南师范大学',null,'0001','汉族','博士','讲师',1);
-insert into ems_teacher values('0006','0006','盛艳',null,'女',  '420623198012341341',null,'湖南师范大学',null,'0001','汉族','博士','讲师',1);
-insert into ems_teacher values('0007','0007','王灿东',null,'女','420623198012341347',null,'湖南师范大学',null,'0001','汉族','博士','讲师',1);
-insert into ems_teacher values('0008','0008','刘立吾',null,'男','420623198012341347',null,'湖南师范大学',null,'0001','汉族','博士','讲师',1);
-insert into ems_teacher values('0009','0009','潘启元',null,'男','420623198012341347',null,'湖南师范大学',null,'0001','汉族','博士','讲师',1);
-insert into ems_teacher values('0010','0010','谢锦',null,'女','420623198012341347',null,'湖南师范大学',null,'0001','汉族','博士','讲师',1);
+insert into ems_teacher values('0001','0001','脰脫录谩鲁脡',null,'脛脨','420623198012341256',null,'潞镁脛脧脢娄路露麓贸脩搂',null,'0001','潞潞脳氓','虏漏脢驴','陆虏脢娄',0);
+insert into ems_teacher values('0002','0002','脮脜陆隆戮眉',null,'脛脨','420623198012341246',null,'潞镁脛脧脢娄路露麓贸脩搂',null,'0001','潞潞脳氓','虏漏脢驴','陆虏脢娄',1);
+insert into ems_teacher values('0003','0003','脩卯录脪潞矛',null,'脛脨','420623198012341236',null,'潞镁脛脧脢娄路露麓贸脩搂',null,'0001','潞潞脳氓','虏漏脢驴','陆脤脢脷',1);
+insert into ems_teacher values('0004','0004','赂露脫帽',null,  '脜庐','420623198012341232',null,'潞镁脛脧脢娄路露麓贸脩搂',null,'0001','潞潞脳氓','虏漏脢驴','赂卤陆脤脢脷',1);
+insert into ems_teacher values('0005','0005','脨陇脕酶脙梅',null,'脜庐','420623198012341237',null,'潞镁脛脧脢娄路露麓贸脩搂',null,'0001','潞潞脳氓','虏漏脢驴','陆虏脢娄',1);
+insert into ems_teacher values('0006','0006','脢垄脩脼',null,'脜庐',  '420623198012341341',null,'潞镁脛脧脢娄路露麓贸脩搂',null,'0001','潞潞脳氓','虏漏脢驴','陆虏脢娄',1);
+insert into ems_teacher values('0007','0007','脥玫虏脫露芦',null,'脜庐','420623198012341347',null,'潞镁脛脧脢娄路露麓贸脩搂',null,'0001','潞潞脳氓','虏漏脢驴','陆虏脢娄',1);
+insert into ems_teacher values('0008','0008','脕玫脕垄脦谩',null,'脛脨','420623198012341347',null,'潞镁脛脧脢娄路露麓贸脩搂',null,'0001','潞潞脳氓','虏漏脢驴','陆虏脢娄',1);
+insert into ems_teacher values('0009','0009','脜脣脝么脭陋',null,'脛脨','420623198012341347',null,'潞镁脛脧脢娄路露麓贸脩搂',null,'0001','潞潞脳氓','虏漏脢驴','陆虏脢娄',1);
+insert into ems_teacher values('0010','0010','脨禄陆玫',null,'脜庐','420623198012341347',null,'潞镁脛脧脢娄路露麓贸脩搂',null,'0001','潞潞脳氓','虏漏脢驴','陆虏脢娄',1);
 
 
 
@@ -55,10 +55,10 @@ create table Ems_Manager(
        nation varchar(50)         
 );
 
-insert into ems_manager values('system','system','系统管理员',null,null,null,null);
-insert into ems_manager values('0001','0001','马萌','女','430623199010301234','湖南师范大学','汉族');
-insert into ems_manager values('0002','0002','白艳','男','430623199010301334','湖南师范大学','汉族');
-insert into ems_manager values('0003','0003','杨忻澎','男','430623199010301434','湖南师范大学','汉族');
+insert into ems_manager values('system','system','脧碌脥鲁鹿脺脌铆脭卤',null,null,null,null);
+insert into ems_manager values('0001','0001','脗铆脙脠','脜庐','430623199010301234','潞镁脛脧脢娄路露麓贸脩搂','潞潞脳氓');
+insert into ems_manager values('0002','0002','掳脳脩脼','脛脨','430623199010301334','潞镁脛脧脢娄路露麓贸脩搂','潞潞脳氓');
+insert into ems_manager values('0003','0003','脩卯脨脙脜矛','脛脨','430623199010301434','潞镁脛脧脢娄路露麓贸脩搂','潞潞脳氓');
 
 create table ems_student(
        idnum varchar(20),            
@@ -76,48 +76,48 @@ create table ems_student(
        flag int default 0         
 );
 
-insert into ems_student values('2008180501','123456','易倩',null,'女','430726198911293149',null,'0001','常德',null,'土家族','20080907',0);
-insert into ems_student values('2008180503','123456','杨荣',null,'女','430726198904071441',null,'0001','常德',null,'汉族','20080907',0);
-insert into ems_student values('2008180504','123456','苏安波',null,'男','430726198801042832',null,'0001','常德',null,'汉族','20080907',0);
-insert into ems_student values('2008180502','123456','聂双平',null,'女','430725199003200347',null,'0001','常德',null,'汉族','20080907',0);
-insert into ems_student values('2008180505','123456','李立',null,'男','430681198810053233',null,'0001','岳阳',null,'汉族','20080907',0);
-insert into ems_student values('2008180506','123456','熊艳芳',null,'女','430723199009165447',null,'0001','常德',null,'汉族','20080907',0);
-insert into ems_student values('2008180507','123456','周圆',null,'女','431102199002195682',null,'0001','永州',null,'汉族','20080907',0);
-insert into ems_student values('2008180508','123456','陈鑫林',null,'男','430726198801042832',null,'0001','常德',null,'汉族','20080907',0);
-insert into ems_student values('2008180509','123456','杨智丽',null,'女','430726198801042832',null,'0001','常德',null,'汉族','20080907',0);
-insert into ems_student values('2008180510','123456','唐娅',null,'女','430726198801042832',null,'0001','常德',null,'汉族','20080907',0);
-insert into ems_student values('2008180511','123456','石小红',null,'女','430726198801042832',null,'0001','常德',null,'汉族','20080907',0);
-insert into ems_student values('2008180512','123456','雷小燕',null,'女','430726198801042832',null,'0001','常德',null,'汉族','20080907',0);
-insert into ems_student values('2008180513','123456','王金元',null,'男','430726198801042832',null,'0001','常德',null,'汉族','20080907',0);
-insert into ems_student values('2008180514','123456','阎陈',null,'女','430726198801042832',null,'0001','常德',null,'汉族','20080907',0);
-insert into ems_student values('2008180515','123456','贺敏',null,'男','430726198801042832',null,'0001','常德',null,'汉族','20080907',0);
-insert into ems_student values('2008180516','123456','邝燕财',null,'男','430726198801042832',null,'0001','常德',null,'汉族','20080907',0);
-insert into ems_student values('2008180517','123456','黄骏',null,'女','430726198801042832',null,'0001','常德',null,'汉族','20080907',0);
-insert into ems_student values('2008180518','123456','肖瑶',null,'男','430726198801042832',null,'0001','常德',null,'汉族','20080907',0);
-insert into ems_student values('2008180519','123456','文倩颖',null,'女','430726198801042832',null,'0001','常德',null,'汉族','20080907',0);
-insert into ems_student values('2008180520','123456','黄查',null,'女','430726198801042832',null,'0001','常德',null,'汉族','20080907',0);
-insert into ems_student values('2008180521','123456','刘焱',null,'男','430726198801042832',null,'0001','常德',null,'汉族','20080907',0);
-insert into ems_student values('2008180522','123456','易革军',null,'男','430726198801042832',null,'0001','常德',null,'汉族','20080907',0);
-insert into ems_student values('2008180523','123456','杨忻澎',null,'男','430726198801042832',null,'0001','常德',null,'汉族','20080907',0);
-insert into ems_student values('2008180524','123456','刘霞',null,'女','430726198801042832',null,'0001','常德',null,'汉族','20080907',0);
-insert into ems_student values('2008180525','123456','梁佳朗',null,'男','430726198801042832',null,'0001','常德',null,'汉族','20080907',0);
-insert into ems_student values('2008180526','123456','李团',null,'女','430726198801042832',null,'0001','常德',null,'汉族','20080907',0);
-insert into ems_student values('2008180527','123456','伍媚',null,'女','430726198801042832',null,'0001','常德',null,'汉族','20080907',0);
-insert into ems_student values('2008180528','123456','罗燕',null,'女','430726198801042832',null,'0001','常德',null,'汉族','20080907',0);
-insert into ems_student values('2008180529','123456','谭水平',null,'女','430726198801042832',null,'0001','常德',null,'汉族','20080907',0);
-insert into ems_student values('2008180530','123456','白艳',null,'男','430726198801042832',null,'0001','常德',null,'汉族','20080907',0);
-insert into ems_student values('2008180531','123456','邹芳云',null,'女','430726198801042832',null,'0001','常德',null,'汉族','20080907',0);
-insert into ems_student values('2008180532','123456','郭玉娇',null,'女','430726198801042832',null,'0001','常德',null,'汉族','20080907',0);
-insert into ems_student values('2008180533','123456','王益妮',null,'女','430726198801042832',null,'0001','常德',null,'汉族','20080907',0);
-insert into ems_student values('2008180534','123456','唐强',null,'男','430726198801042832',null,'0001','常德',null,'汉族','20080907',0);
-insert into ems_student values('2008180535','123456','成幸毅',null,'男','430726198801042832',null,'0001','常德',null,'汉族','20080907',0);
-insert into ems_student values('2008180536','123456','黄丽芬',null,'女','430726198801042832',null,'0001','常德',null,'汉族','20080907',0);
-insert into ems_student values('2008180537','123456','胡超',null,'男','430726198801042832',null,'0001','常德',null,'汉族','20080907',0);
-insert into ems_student values('2008180538','123456','马萌',null,'女','430726198801042832',null,'0001','常德',null,'汉族','20080907',0);
-insert into ems_student values('2008180539','123456','刘飞',null,'男','430726198801042832',null,'0001','常德',null,'汉族','20080907',0);
-insert into ems_student values('2008180540','123456','吴亚辉',null,'女','430726198801042832',null,'0001','常德',null,'汉族','20080907',0);
-insert into ems_student values('2008180541','123456','周霞',null,'女','430726198801042832',null,'0001','常德',null,'汉族','20080907',0);
-insert into ems_student values('2008180542','123456','肖杨',null,'女','430726198801042832',null,'0001','常德',null,'汉族','20080907',0);
+insert into ems_student values('2008180501','123456','脪脳脵禄',null,'脜庐','430726198911293149',null,'0001','鲁拢碌脗',null,'脥脕录脪脳氓','20080907',0);
+insert into ems_student values('2008180503','123456','脩卯脠脵',null,'脜庐','430726198904071441',null,'0001','鲁拢碌脗',null,'潞潞脳氓','20080907',0);
+insert into ems_student values('2008180504','123456','脣脮掳虏虏篓',null,'脛脨','430726198801042832',null,'0001','鲁拢碌脗',null,'潞潞脳氓','20080907',0);
+insert into ems_student values('2008180502','123456','脛么脣芦脝陆',null,'脜庐','430725199003200347',null,'0001','鲁拢碌脗',null,'潞潞脳氓','20080907',0);
+insert into ems_student values('2008180505','123456','脌卯脕垄',null,'脛脨','430681198810053233',null,'0001','脭脌脩么',null,'潞潞脳氓','20080907',0);
+insert into ems_student values('2008180506','123456','脨脺脩脼路录',null,'脜庐','430723199009165447',null,'0001','鲁拢碌脗',null,'潞潞脳氓','20080907',0);
+insert into ems_student values('2008180507','123456','脰脺脭虏',null,'脜庐','431102199002195682',null,'0001','脫脌脰脻',null,'潞潞脳氓','20080907',0);
+insert into ems_student values('2008180508','123456','鲁脗枚脦脕脰',null,'脛脨','430726198801042832',null,'0001','鲁拢碌脗',null,'潞潞脳氓','20080907',0);
+insert into ems_student values('2008180509','123456','脩卯脰脟脌枚',null,'脜庐','430726198801042832',null,'0001','鲁拢碌脗',null,'潞潞脳氓','20080907',0);
+insert into ems_student values('2008180510','123456','脤脝忙芦',null,'脜庐','430726198801042832',null,'0001','鲁拢碌脗',null,'潞潞脳氓','20080907',0);
+insert into ems_student values('2008180511','123456','脢炉脨隆潞矛',null,'脜庐','430726198801042832',null,'0001','鲁拢碌脗',null,'潞潞脳氓','20080907',0);
+insert into ems_student values('2008180512','123456','脌脳脨隆脩脿',null,'脜庐','430726198801042832',null,'0001','鲁拢碌脗',null,'潞潞脳氓','20080907',0);
+insert into ems_student values('2008180513','123456','脥玫陆冒脭陋',null,'脛脨','430726198801042832',null,'0001','鲁拢碌脗',null,'潞潞脳氓','20080907',0);
+insert into ems_student values('2008180514','123456','脩脰鲁脗',null,'脜庐','430726198801042832',null,'0001','鲁拢碌脗',null,'潞潞脳氓','20080907',0);
+insert into ems_student values('2008180515','123456','潞脴脙么',null,'脛脨','430726198801042832',null,'0001','鲁拢碌脗',null,'潞潞脳氓','20080907',0);
+insert into ems_student values('2008180516','123456','脷梅脩脿虏脝',null,'脛脨','430726198801042832',null,'0001','鲁拢碌脗',null,'潞潞脳氓','20080907',0);
+insert into ems_student values('2008180517','123456','禄脝驴楼',null,'脜庐','430726198801042832',null,'0001','鲁拢碌脗',null,'潞潞脳氓','20080907',0);
+insert into ems_student values('2008180518','123456','脨陇脩镁',null,'脛脨','430726198801042832',null,'0001','鲁拢碌脗',null,'潞潞脳氓','20080907',0);
+insert into ems_student values('2008180519','123456','脦脛脵禄脫卤',null,'脜庐','430726198801042832',null,'0001','鲁拢碌脗',null,'潞潞脳氓','20080907',0);
+insert into ems_student values('2008180520','123456','禄脝虏茅',null,'脜庐','430726198801042832',null,'0001','鲁拢碌脗',null,'潞潞脳氓','20080907',0);
+insert into ems_student values('2008180521','123456','脕玫矛脥',null,'脛脨','430726198801042832',null,'0001','鲁拢碌脗',null,'潞潞脳氓','20080907',0);
+insert into ems_student values('2008180522','123456','脪脳赂茂戮眉',null,'脛脨','430726198801042832',null,'0001','鲁拢碌脗',null,'潞潞脳氓','20080907',0);
+insert into ems_student values('2008180523','123456','脩卯脨脙脜矛',null,'脛脨','430726198801042832',null,'0001','鲁拢碌脗',null,'潞潞脳氓','20080907',0);
+insert into ems_student values('2008180524','123456','脕玫脧录',null,'脜庐','430726198801042832',null,'0001','鲁拢碌脗',null,'潞潞脳氓','20080907',0);
+insert into ems_student values('2008180525','123456','脕潞录脩脌脢',null,'脛脨','430726198801042832',null,'0001','鲁拢碌脗',null,'潞潞脳氓','20080907',0);
+insert into ems_student values('2008180526','123456','脌卯脥脜',null,'脜庐','430726198801042832',null,'0001','鲁拢碌脗',null,'潞潞脳氓','20080907',0);
+insert into ems_student values('2008180527','123456','脦茅脙脛',null,'脜庐','430726198801042832',null,'0001','鲁拢碌脗',null,'潞潞脳氓','20080907',0);
+insert into ems_student values('2008180528','123456','脗脼脩脿',null,'脜庐','430726198801042832',null,'0001','鲁拢碌脗',null,'潞潞脳氓','20080907',0);
+insert into ems_student values('2008180529','123456','脤路脣庐脝陆',null,'脜庐','430726198801042832',null,'0001','鲁拢碌脗',null,'潞潞脳氓','20080907',0);
+insert into ems_student values('2008180530','123456','掳脳脩脼',null,'脛脨','430726198801042832',null,'0001','鲁拢碌脗',null,'潞潞脳氓','20080907',0);
+insert into ems_student values('2008180531','123456','脳脼路录脭脝',null,'脜庐','430726198801042832',null,'0001','鲁拢碌脗',null,'潞潞脳氓','20080907',0);
+insert into ems_student values('2008180532','123456','鹿霉脫帽陆驴',null,'脜庐','430726198801042832',null,'0001','鲁拢碌脗',null,'潞潞脳氓','20080907',0);
+insert into ems_student values('2008180533','123456','脥玫脪忙脛脻',null,'脜庐','430726198801042832',null,'0001','鲁拢碌脗',null,'潞潞脳氓','20080907',0);
+insert into ems_student values('2008180534','123456','脤脝脟驴',null,'脛脨','430726198801042832',null,'0001','鲁拢碌脗',null,'潞潞脳氓','20080907',0);
+insert into ems_student values('2008180535','123456','鲁脡脨脪脪茫',null,'脛脨','430726198801042832',null,'0001','鲁拢碌脗',null,'潞潞脳氓','20080907',0);
+insert into ems_student values('2008180536','123456','禄脝脌枚路脪',null,'脜庐','430726198801042832',null,'0001','鲁拢碌脗',null,'潞潞脳氓','20080907',0);
+insert into ems_student values('2008180537','123456','潞煤鲁卢',null,'脛脨','430726198801042832',null,'0001','鲁拢碌脗',null,'潞潞脳氓','20080907',0);
+insert into ems_student values('2008180538','123456','脗铆脙脠',null,'脜庐','430726198801042832',null,'0001','鲁拢碌脗',null,'潞潞脳氓','20080907',0);
+insert into ems_student values('2008180539','123456','脕玫路脡',null,'脛脨','430726198801042832',null,'0001','鲁拢碌脗',null,'潞潞脳氓','20080907',0);
+insert into ems_student values('2008180540','123456','脦芒脩脟禄脭',null,'脜庐','430726198801042832',null,'0001','鲁拢碌脗',null,'潞潞脳氓','20080907',0);
+insert into ems_student values('2008180541','123456','脰脺脧录',null,'脜庐','430726198801042832',null,'0001','鲁拢碌脗',null,'潞潞脳氓','20080907',0);
+insert into ems_student values('2008180542','123456','脨陇脩卯',null,'脜庐','430726198801042832',null,'0001','鲁拢碌脗',null,'潞潞脳氓','20080907',0);
 
 create table ems_graduation(
   idnum  varchar(20),                 
@@ -131,51 +131,51 @@ create table ems_graduation(
   remark varchar(800)              
   
 );
-insert into ems_graduation values('0001','基于Java Web的教务管理系统','0001','10','10',TO_DATE('2012-3-1 12:00:00','YYYY-MM-DD HH24:MI:SS'),'teacher','容易','所须知识：html网页设计，java基础，jsp动态网页设计，SHH框架，Oracle数据库等。');
-insert into ems_graduation values('0002','基于android的连连看3D游戏','0001','10','10',TO_DATE('2012-3-1 12:00:00','YYYY-MM-DD HH24:MI:SS'),'teacher','一般','所须知识：java基础,SQLite 数据库等。');
-insert into ems_graduation values('0003','基于J2EE与VBA的科研项目管理信息系统','0001','10','10',TO_DATE('2012-3-1 12:00:00','YYYY-MM-DD HH24:MI:SS'),'teacher','容易','所须知识：Office VBA,html网页设计，java基础，jsp动态网页设计，SHH框架，Oracle数据库等。');
-insert into ems_graduation values('0004','车载智能防盗系统的设计与实现','0001','10','10',TO_DATE('2012-3-1 12:00:00','YYYY-MM-DD HH24:MI:SS'),'teacher','容易','所须知识：html + jsp + java + oracle等。');
-insert into ems_graduation values('0005','远程视频控制软件的设计及实现','0001','10','10',TO_DATE('2012-3-1 12:00:00','YYYY-MM-DD HH24:MI:SS'),'teacher','容易','所须知识：html + jsp + java + oracle等。');
-insert into ems_graduation values('0006','基于office VBA报表系统','0001','10','10',TO_DATE('2012-3-1 12:00:00','YYYY-MM-DD HH24:MI:SS'),'teacher','容易','所须知识：html + jsp + java + oracle等。');
-insert into ems_graduation values('0007','软件测试BUG跟踪及管理系统设计','0001','10','10',TO_DATE('2012-3-1 12:00:00','YYYY-MM-DD HH24:MI:SS'),'teacher','困难','所须知识：语言：C/C++/C#,,Java等。,数据库：MS SQL,Mysql,Oracle等。服务器：tomcat,IIS等。开发工具：Eclipse,Myeclipse,visual studio,plsqldev ,navicat,Rational Rose ,PowerDesigner,Visio等。');
-insert into ems_graduation values('0008','P2P计算技术研究','0001','10','10',TO_DATE('2012-3-1 12:00:00','YYYY-MM-DD HH24:MI:SS'),'teacher','困难','所须知识：语言：C/C++/C#,,Java等。,数据库：MS SQL,Mysql,Oracle等。服务器：tomcat,IIS等。开发工具：Eclipse,Myeclipse,visual studio,plsqldev ,navicat,Rational Rose ,PowerDesigner,Visio等。');
-insert into ems_graduation values('0009','通用智能升级系统的设计与实现','0001','10','10',TO_DATE('2012-3-1 12:00:00','YYYY-MM-DD HH24:MI:SS'),'teacher','困难','所须知识：语言：C/C++/C#,,Java等。,数据库：MS SQL,Mysql,Oracle等。服务器：tomcat,IIS等。开发工具：Eclipse,Myeclipse,visual studio,plsqldev ,navicat,Rational Rose ,PowerDesigner,Visio等。');
-insert into ems_graduation values('0010','基于手机平台GPS轨迹重现系统设计与实现','0001','10','10',TO_DATE('2012-3-1 12:00:00','YYYY-MM-DD HH24:MI:SS'),'teacher','困难','所须知识：语言：C/C++/C#,,Java等。,数据库：MS SQL,Mysql,Oracle等。服务器：tomcat,IIS等。开发工具：Eclipse,Myeclipse,visual studio,plsqldev ,navicat,Rational Rose ,PowerDesigner,Visio等。');
-insert into ems_graduation values('0011','基于嵌入式平台矩阵类库设计与实现','0001','10','10',TO_DATE('2012-3-1 12:00:00','YYYY-MM-DD HH24:MI:SS'),'teacher','困难','所须知识：语言：C/C++/C#,,Java等。,数据库：MS SQL,Mysql,Oracle等。服务器：tomcat,IIS等。开发工具：Eclipse,Myeclipse,visual studio,plsqldev ,navicat,Rational Rose ,PowerDesigner,Visio等。');
-insert into ems_graduation values('0012','基于J2EE与VBA工作流引擎设计与实现','0001','10','10',TO_DATE('2012-3-1 12:00:00','YYYY-MM-DD HH24:MI:SS'),'teacher','困难','所须知识：语言：C/C++/C#,,Java等。,数据库：MS SQL,Mysql,Oracle等。服务器：tomcat,IIS等。开发工具：Eclipse,Myeclipse,visual studio,plsqldev ,navicat,Rational Rose ,PowerDesigner,Visio等。');
-insert into ems_graduation values('0013','J2EE教学管理系统','0001','10','10',TO_DATE('2012-3-1 12:00:00','YYYY-MM-DD HH24:MI:SS'),'teacher','困难','所须知识：语言：C/C++/C#,,Java等。,数据库：MS SQL,Mysql,Oracle等。服务器：tomcat,IIS等。开发工具：Eclipse,Myeclipse,visual studio,plsqldev ,navicat,Rational Rose ,PowerDesigner,Visio等。');
-insert into ems_graduation values('0014','Word ( PDF )文档结构解析','0002','10','10',TO_DATE('2012-3-19 12:00:00','YYYY-MM-DD HH24:MI:SS'),'teacher','一般','所须知识：语言：C/C++/C#,,Java等。,数据库：MS SQL,Mysql,Oracle等。服务器：tomcat,IIS等。开发工具：Eclipse,Myeclipse,visual studio,plsqldev ,navicat,Rational Rose ,PowerDesigner,Visio等。');
-insert into ems_graduation values('0015','实践教学排课系统设计','0002','10','10',TO_DATE('2012-3-19 12:00:00','YYYY-MM-DD HH24:MI:SS'),'teacher','一般','所须知识：语言：C/C++/C#,,Java等。,数据库：MS SQL,Mysql,Oracle等。服务器：tomcat,IIS等。开发工具：Eclipse,Myeclipse,visual studio,plsqldev ,navicat,Rational Rose ,PowerDesigner,Visio等。');
-insert into ems_graduation values('0016','网络教学资源库设计','0002','10','10',TO_DATE('2012-3-19 12:00:00','YYYY-MM-DD HH24:MI:SS'),'teacher','一般','所须知识：语言：C/C++/C#,,Java等。,数据库：MS SQL,Mysql,Oracle等。服务器：tomcat,IIS等。开发工具：Eclipse,Myeclipse,visual studio,plsqldev ,navicat,Rational Rose ,PowerDesigner,Visio等。');
-insert into ems_graduation values('0017','实验仪器设备管理平台设计','0002','10','10',TO_DATE('2012-3-19 12:00:00','YYYY-MM-DD HH24:MI:SS'),'teacher','一般','所须知识：语言：C/C++/C#,,Java等。,数据库：MS SQL,Mysql,Oracle等。服务器：tomcat,IIS等。开发工具：Eclipse,Myeclipse,visual studio,plsqldev ,navicat,Rational Rose ,PowerDesigner,Visio等。');
-insert into ems_graduation values('0018','基于分形的动画特效设计','0002','10','10',TO_DATE('2012-3-19 12:00:00','YYYY-MM-DD HH24:MI:SS'),'teacher','一般','所须知识：语言：C/C++/C#,,Java等。,数据库：MS SQL,Mysql,Oracle等。服务器：tomcat,IIS等。开发工具：Eclipse,Myeclipse,visual studio,plsqldev ,navicat,Rational Rose ,PowerDesigner,Visio等。');
-insert into ems_graduation values('0019','电子文档复制取证研究','0002','10','10',TO_DATE('2012-3-19 12:00:00','YYYY-MM-DD HH24:MI:SS'),'teacher','一般','所须知识：语言：C/C++/C#,,Java等。,数据库：MS SQL,Mysql,Oracle等。服务器：tomcat,IIS等。开发工具：Eclipse,Myeclipse,visual studio,plsqldev ,navicat,Rational Rose ,PowerDesigner,Visio等。');
-insert into ems_graduation values('0020','印刷体文档数字水印设计','0002','10','10',TO_DATE('2012-3-19 12:00:00','YYYY-MM-DD HH24:MI:SS'),'teacher','一般','所须知识：语言：C/C++/C#,,Java等。,数据库：MS SQL,Mysql,Oracle等。服务器：tomcat,IIS等。开发工具：Eclipse,Myeclipse,visual studio,plsqldev ,navicat,Rational Rose ,PowerDesigner,Visio等。');
-insert into ems_graduation values('0021','基于ARM的智能家居系统','0003','10','10',TO_DATE('2012-3-19 12:00:00','YYYY-MM-DD HH24:MI:SS'),'teacher','一般','所须知识：语言：C/C++/C#,,Java等。,数据库：MS SQL,Mysql,Oracle等。服务器：tomcat,IIS等。开发工具：Eclipse,Myeclipse,visual studio,plsqldev ,navicat,Rational Rose ,PowerDesigner,Visio等。');
-insert into ems_graduation values('0022','基于Android平台的3G流量检测系统','0003','10','10',TO_DATE('2012-3-19 12:00:00','YYYY-MM-DD HH24:MI:SS'),'teacher','一般','所须知识：语言：C/C++/C#,,Java等。,数据库：MS SQL,Mysql,Oracle等。服务器：tomcat,IIS等。开发工具：Eclipse,Myeclipse,visual studio,plsqldev ,navicat,Rational Rose ,PowerDesigner,Visio等。');
-insert into ems_graduation values('0044','基于android平台的中英文词典','0003','10','10',TO_DATE('2012-3-19 12:00:00','YYYY-MM-DD HH24:MI:SS'),'teacher','一般','所须知识：语言：C/C++/C#,,Java等。,数据库：MS SQL,Mysql,Oracle等。服务器：tomcat,IIS等。开发工具：Eclipse,Myeclipse,visual studio,plsqldev ,navicat,Rational Rose ,PowerDesigner,Visio等。');
-insert into ems_graduation values('0023','LINUX下个人防火墙','0003','10','10',TO_DATE('2012-3-19 12:00:00','YYYY-MM-DD HH24:MI:SS'),'teacher','一般','所须知识：语言：C/C++/C#,,Java等。,数据库：MS SQL,Mysql,Oracle等。服务器：tomcat,IIS等。开发工具：Eclipse,Myeclipse,visual studio,plsqldev ,navicat,Rational Rose ,PowerDesigner,Visio等。');
-insert into ems_graduation values('0024','基于MAPX的公交车辆实时监控设计与研发','0003','10','10',TO_DATE('2012-3-19 12:00:00','YYYY-MM-DD HH24:MI:SS'),'teacher','一般','所须知识：语言：C/C++/C#,,Java等。,数据库：MS SQL,Mysql,Oracle等。服务器：tomcat,IIS等。开发工具：Eclipse,Myeclipse,visual studio,plsqldev ,navicat,Rational Rose ,PowerDesigner,Visio等。');
-insert into ems_graduation values('0025','GPS智能抄表终端系统','0003','10','10',TO_DATE('2012-3-19 12:00:00','YYYY-MM-DD HH24:MI:SS'),'teacher','一般','所须知识：语言：C/C++/C#,,Java等。,数据库：MS SQL,Mysql,Oracle等。服务器：tomcat,IIS等。开发工具：Eclipse,Myeclipse,visual studio,plsqldev ,navicat,Rational Rose ,PowerDesigner,Visio等。');
-insert into ems_graduation values('0026','电力抄表系统导航中的应用研究和算法设计','0003','10','10',TO_DATE('2012-3-19 12:00:00','YYYY-MM-DD HH24:MI:SS'),'teacher','一般','所须知识：语言：C/C++/C#,,Java等。,数据库：MS SQL,Mysql,Oracle等。服务器：tomcat,IIS等。开发工具：Eclipse,Myeclipse,visual studio,plsqldev ,navicat,Rational Rose ,PowerDesigner,Visio等。');
-insert into ems_graduation values('0027','商品团购网的设计与开发','0004','10','10',TO_DATE('2012-3-19 12:00:00','YYYY-MM-DD HH24:MI:SS'),'teacher','一般','所须知识：语言：C/C++/C#,,Java等。,数据库：MS SQL,Mysql,Oracle等。服务器：tomcat,IIS等。开发工具：Eclipse,Myeclipse,visual studio,plsqldev ,navicat,Rational Rose ,PowerDesigner,Visio等。');
-insert into ems_graduation values('0028',' 智能搜索引擎的算法分析与设计','0004','10','10',TO_DATE('2012-3-19 12:00:00','YYYY-MM-DD HH24:MI:SS'),'teacher','一般','所须知识：语言：C/C++/C#,,Java等。,数据库：MS SQL,Mysql,Oracle等。服务器：tomcat,IIS等。开发工具：Eclipse,Myeclipse,visual studio,plsqldev ,navicat,Rational Rose ,PowerDesigner,Visio等。');
-insert into ems_graduation values('0029','高等职业教育信息管理信息系统的设计与实现','0004','10','10',TO_DATE('2012-3-19 12:00:00','YYYY-MM-DD HH24:MI:SS'),'teacher','一般','所须知识：语言：C/C++/C#,,Java等。,数据库：MS SQL,Mysql,Oracle等。服务器：tomcat,IIS等。开发工具：Eclipse,Myeclipse,visual studio,plsqldev ,navicat,Rational Rose ,PowerDesigner,Visio等。');
-insert into ems_graduation values('0030','基于WEB的软件水平考试平台的设计与开发','0004','10','10',TO_DATE('2012-3-19 12:00:00','YYYY-MM-DD HH24:MI:SS'),'teacher','一般','所须知识：语言：C/C++/C#,,Java等。,数据库：MS SQL,Mysql,Oracle等。服务器：tomcat,IIS等。开发工具：Eclipse,Myeclipse,visual studio,plsqldev ,navicat,Rational Rose ,PowerDesigner,Visio等。');
-insert into ems_graduation values('0031','双语教学精品课程系统的设计与实现','0004','10','10',TO_DATE('2012-3-19 12:00:00','YYYY-MM-DD HH24:MI:SS'),'teacher','一般','所须知识：语言：C/C++/C#,,Java等。,数据库：MS SQL,Mysql,Oracle等。服务器：tomcat,IIS等。开发工具：Eclipse,Myeclipse,visual studio,plsqldev ,navicat,Rational Rose ,PowerDesigner,Visio等。');
-insert into ems_graduation values('0032','生物冶金的数据仓库与数据挖掘的算法设计与实现','0004','10','10',TO_DATE('2012-3-19 12:00:00','YYYY-MM-DD HH24:MI:SS'),'teacher','一般','所须知识：语言：C/C++/C#,,Java等。,数据库：MS SQL,Mysql,Oracle等。服务器：tomcat,IIS等。开发工具：Eclipse,Myeclipse,visual studio,plsqldev ,navicat,Rational Rose ,PowerDesigner,Visio等。');
-insert into ems_graduation values('0033','云计算终端的分析与设计','0004','10','10',TO_DATE('2012-3-19 12:00:00','YYYY-MM-DD HH24:MI:SS'),'teacher','一般','所须知识：语言：C/C++/C#,,Java等。,数据库：MS SQL,Mysql,Oracle等。服务器：tomcat,IIS等。开发工具：Eclipse,Myeclipse,visual studio,plsqldev ,navicat,Rational Rose ,PowerDesigner,Visio等。');
-insert into ems_graduation values('0034','云计算服务器的分析与设计','0004','10','10',TO_DATE('2012-3-19 12:00:00','YYYY-MM-DD HH24:MI:SS'),'teacher','一般','所须知识：语言：C/C++/C#,,Java等。,数据库：MS SQL,Mysql,Oracle等。服务器：tomcat,IIS等。开发工具：Eclipse,Myeclipse,visual studio,plsqldev ,navicat,Rational Rose ,PowerDesigner,Visio等。');
-insert into ems_graduation values('0035','文档数字水印的设计与开发','0004','10','10',TO_DATE('2012-3-19 12:00:00','YYYY-MM-DD HH24:MI:SS'),'teacher','一般','所须知识：语言：C/C++/C#,,Java等。,数据库：MS SQL,Mysql,Oracle等。服务器：tomcat,IIS等。开发工具：Eclipse,Myeclipse,visual studio,plsqldev ,navicat,Rational Rose ,PowerDesigner,Visio等。');
-insert into ems_graduation values('0036','基于Android手机平台的音乐播放器的设计与实现','0004','10','10',TO_DATE('2012-3-19 12:00:00','YYYY-MM-DD HH24:MI:SS'),'teacher','一般','所须知识：语言：C/C++/C#,,Java等。,数据库：MS SQL,Mysql,Oracle等。服务器：tomcat,IIS等。开发工具：Eclipse,Myeclipse,visual studio,plsqldev ,navicat,Rational Rose ,PowerDesigner,Visio等。');
-insert into ems_graduation values('0037','教师工作量管理系统','0005','10','10',TO_DATE('2012-3-19 12:00:00','YYYY-MM-DD HH24:MI:SS'),'teacher','一般','所须知识：语言：C/C++/C#,,Java等。,数据库：MS SQL,Mysql,Oracle等。服务器：tomcat,IIS等。开发工具：Eclipse,Myeclipse,visual studio,plsqldev ,navicat,Rational Rose ,PowerDesigner,Visio等。');
-insert into ems_graduation values('0038','企业合同管理系统','0005','10','10',TO_DATE('2012-3-19 12:00:00','YYYY-MM-DD HH24:MI:SS'),'teacher','一般','所须知识：语言：C/C++/C#,,Java等。,数据库：MS SQL,Mysql,Oracle等。服务器：tomcat,IIS等。开发工具：Eclipse,Myeclipse,visual studio,plsqldev ,navicat,Rational Rose ,PowerDesigner,Visio等。');
-insert into ems_graduation values('0039','教学秘书系统','0005','10','10',TO_DATE('2012-3-19 12:00:00','YYYY-MM-DD HH24:MI:SS'),'teacher','一般','所须知识：语言：C/C++/C#,,Java等。,数据库：MS SQL,Mysql,Oracle等。服务器：tomcat,IIS等。开发工具：Eclipse,Myeclipse,visual studio,plsqldev ,navicat,Rational Rose ,PowerDesigner,Visio等。');
-insert into ems_graduation values('0040','中小企业成本核算系统','0005','10','10',TO_DATE('2012-3-19 12:00:00','YYYY-MM-DD HH24:MI:SS'),'teacher','一般','所须知识：语言：C/C++/C#,,Java等。,数据库：MS SQL,Mysql,Oracle等。服务器：tomcat,IIS等。开发工具：Eclipse,Myeclipse,visual studio,plsqldev ,navicat,Rational Rose ,PowerDesigner,Visio等。');
-insert into ems_graduation values('0041','二维码编码解码器设计','0006','10','10',TO_DATE('2012-3-19 12:00:00','YYYY-MM-DD HH24:MI:SS'),'teacher','一般','所须知识：语言：C/C++/C#,,Java等。,数据库：MS SQL,Mysql,Oracle等。服务器：tomcat,IIS等。开发工具：Eclipse,Myeclipse,visual studio,plsqldev ,navicat,Rational Rose ,PowerDesigner,Visio等。');
-insert into ems_graduation values('0042','用霍夫曼编码实现的数字图像无损压缩','0006','10','10',TO_DATE('2012-3-19 12:00:00','YYYY-MM-DD HH24:MI:SS'),'teacher','一般','所须知识：语言：C/C++/C#,,Java等。,数据库：MS SQL,Mysql,Oracle等。服务器：tomcat,IIS等。开发工具：Eclipse,Myeclipse,visual studio,plsqldev ,navicat,Rational Rose ,PowerDesigner,Visio等。');
-insert into ems_graduation values('0043','二手房租售网站设计','0006','10','10',TO_DATE('2012-3-19 12:00:00','YYYY-MM-DD HH24:MI:SS'),'teacher','一般','所须知识：语言：C/C++/C#,,Java等。,数据库：MS SQL,Mysql,Oracle等。服务器：tomcat,IIS等。开发工具：Eclipse,Myeclipse,visual studio,plsqldev ,navicat,Rational Rose ,PowerDesigner,Visio等。');
-insert into ems_graduation values('0045','小区物业管理系统','0007','10','10',TO_DATE('2012-3-19 12:00:00','YYYY-MM-DD HH24:MI:SS'),'teacher','一般','所须知识：语言：C/C++/C#,,Java等。,数据库：MS SQL,Mysql,Oracle等。服务器：tomcat,IIS等。开发工具：Eclipse,Myeclipse,visual studio,plsqldev ,navicat,Rational Rose ,PowerDesigner,Visio等。');
+insert into ems_graduation values('0001','禄霉脫脷Java Web碌脛陆脤脦帽鹿脺脌铆脧碌脥鲁','0001','10','10','2012-3-1 12:00:00','teacher','脠脻脪脳','脣霉脨毛脰陋脢露拢潞html脥酶脪鲁脡猫录脝拢卢java禄霉麓隆拢卢jsp露炉脤卢脥酶脪鲁脡猫录脝拢卢SHH驴貌录脺拢卢Oracle脢媒戮脻驴芒碌脠隆拢');
+insert into ems_graduation values('0002','禄霉脫脷android碌脛脕卢脕卢驴麓3D脫脦脧路','0001','10','10','2012-3-1 12:00:00','teacher','脪禄掳茫','脣霉脨毛脰陋脢露拢潞java禄霉麓隆,SQLite 脢媒戮脻驴芒碌脠隆拢');
+insert into ems_graduation values('0003','禄霉脫脷J2EE脫毛VBA碌脛驴脝脩脨脧卯脛驴鹿脺脌铆脨脜脧垄脧碌脥鲁','0001','10','10','2012-3-1 12:00:00','teacher','脠脻脪脳','脣霉脨毛脰陋脢露拢潞Office VBA,html脥酶脪鲁脡猫录脝拢卢java禄霉麓隆拢卢jsp露炉脤卢脥酶脪鲁脡猫录脝拢卢SHH驴貌录脺拢卢Oracle脢媒戮脻驴芒碌脠隆拢');
+insert into ems_graduation values('0004','鲁碌脭脴脰脟脛脺路脌碌脕脧碌脥鲁碌脛脡猫录脝脫毛脢碌脧脰','0001','10','10','2012-3-1 12:00:00','teacher','脠脻脪脳','脣霉脨毛脰陋脢露拢潞html + jsp + java + oracle碌脠隆拢');
+insert into ems_graduation values('0005','脭露鲁脤脢脫脝碌驴脴脰脝脠铆录镁碌脛脡猫录脝录掳脢碌脧脰','0001','10','10','2012-3-1 12:00:00','teacher','脠脻脪脳','脣霉脨毛脰陋脢露拢潞html + jsp + java + oracle碌脠隆拢');
+insert into ems_graduation values('0006','禄霉脫脷office VBA卤篓卤铆脧碌脥鲁','0001','10','10','2012-3-1 12:00:00','teacher','脠脻脪脳','脣霉脨毛脰陋脢露拢潞html + jsp + java + oracle碌脠隆拢');
+insert into ems_graduation values('0007','脠铆录镁虏芒脢脭BUG赂煤脳脵录掳鹿脺脌铆脧碌脥鲁脡猫录脝','0001','10','10','2012-3-1 12:00:00','teacher','脌搂脛脩','脣霉脨毛脰陋脢露拢潞脫茂脩脭拢潞C/C++/C#,,Java碌脠隆拢,脢媒戮脻驴芒拢潞MS SQL,Mysql,Oracle碌脠隆拢路镁脦帽脝梅拢潞tomcat,IIS碌脠隆拢驴陋路垄鹿陇戮脽拢潞Eclipse,Myeclipse,visual studio,plsqldev ,navicat,Rational Rose ,PowerDesigner,Visio碌脠隆拢');
+insert into ems_graduation values('0008','P2P录脝脣茫录录脢玫脩脨戮驴','0001','10','10','2012-3-1 12:00:00','teacher','脌搂脛脩','脣霉脨毛脰陋脢露拢潞脫茂脩脭拢潞C/C++/C#,,Java碌脠隆拢,脢媒戮脻驴芒拢潞MS SQL,Mysql,Oracle碌脠隆拢路镁脦帽脝梅拢潞tomcat,IIS碌脠隆拢驴陋路垄鹿陇戮脽拢潞Eclipse,Myeclipse,visual studio,plsqldev ,navicat,Rational Rose ,PowerDesigner,Visio碌脠隆拢');
+insert into ems_graduation values('0009','脥篓脫脙脰脟脛脺脡媒录露脧碌脥鲁碌脛脡猫录脝脫毛脢碌脧脰','0001','10','10','2012-3-1 12:00:00','teacher','脌搂脛脩','脣霉脨毛脰陋脢露拢潞脫茂脩脭拢潞C/C++/C#,,Java碌脠隆拢,脢媒戮脻驴芒拢潞MS SQL,Mysql,Oracle碌脠隆拢路镁脦帽脝梅拢潞tomcat,IIS碌脠隆拢驴陋路垄鹿陇戮脽拢潞Eclipse,Myeclipse,visual studio,plsqldev ,navicat,Rational Rose ,PowerDesigner,Visio碌脠隆拢');
+insert into ems_graduation values('0010','禄霉脫脷脢脰禄煤脝陆脤篓GPS鹿矛录拢脰脴脧脰脧碌脥鲁脡猫录脝脫毛脢碌脧脰','0001','10','10','2012-3-1 12:00:00','teacher','脌搂脛脩','脣霉脨毛脰陋脢露拢潞脫茂脩脭拢潞C/C++/C#,,Java碌脠隆拢,脢媒戮脻驴芒拢潞MS SQL,Mysql,Oracle碌脠隆拢路镁脦帽脝梅拢潞tomcat,IIS碌脠隆拢驴陋路垄鹿陇戮脽拢潞Eclipse,Myeclipse,visual studio,plsqldev ,navicat,Rational Rose ,PowerDesigner,Visio碌脠隆拢');
+insert into ems_graduation values('0011','禄霉脫脷脟露脠毛脢陆脝陆脤篓戮脴脮贸脌脿驴芒脡猫录脝脫毛脢碌脧脰','0001','10','10','2012-3-1 12:00:00','teacher','脌搂脛脩','脣霉脨毛脰陋脢露拢潞脫茂脩脭拢潞C/C++/C#,,Java碌脠隆拢,脢媒戮脻驴芒拢潞MS SQL,Mysql,Oracle碌脠隆拢路镁脦帽脝梅拢潞tomcat,IIS碌脠隆拢驴陋路垄鹿陇戮脽拢潞Eclipse,Myeclipse,visual studio,plsqldev ,navicat,Rational Rose ,PowerDesigner,Visio碌脠隆拢');
+insert into ems_graduation values('0012','禄霉脫脷J2EE脫毛VBA鹿陇脳梅脕梅脪媒脟忙脡猫录脝脫毛脢碌脧脰','0001','10','10','2012-3-1 12:00:00','teacher','脌搂脛脩','脣霉脨毛脰陋脢露拢潞脫茂脩脭拢潞C/C++/C#,,Java碌脠隆拢,脢媒戮脻驴芒拢潞MS SQL,Mysql,Oracle碌脠隆拢路镁脦帽脝梅拢潞tomcat,IIS碌脠隆拢驴陋路垄鹿陇戮脽拢潞Eclipse,Myeclipse,visual studio,plsqldev ,navicat,Rational Rose ,PowerDesigner,Visio碌脠隆拢');
+insert into ems_graduation values('0013','J2EE陆脤脩搂鹿脺脌铆脧碌脥鲁','0001','10','10','2012-3-1 12:00:00','teacher','脌搂脛脩','脣霉脨毛脰陋脢露拢潞脫茂脩脭拢潞C/C++/C#,,Java碌脠隆拢,脢媒戮脻驴芒拢潞MS SQL,Mysql,Oracle碌脠隆拢路镁脦帽脝梅拢潞tomcat,IIS碌脠隆拢驴陋路垄鹿陇戮脽拢潞Eclipse,Myeclipse,visual studio,plsqldev ,navicat,Rational Rose ,PowerDesigner,Visio碌脠隆拢');
+insert into ems_graduation values('0014','Word ( PDF )脦脛碌碌陆谩鹿鹿陆芒脦枚','0002','10','10','2012-3-19 12:00:00','teacher','脪禄掳茫','脣霉脨毛脰陋脢露拢潞脫茂脩脭拢潞C/C++/C#,,Java碌脠隆拢,脢媒戮脻驴芒拢潞MS SQL,Mysql,Oracle碌脠隆拢路镁脦帽脝梅拢潞tomcat,IIS碌脠隆拢驴陋路垄鹿陇戮脽拢潞Eclipse,Myeclipse,visual studio,plsqldev ,navicat,Rational Rose ,PowerDesigner,Visio碌脠隆拢');
+insert into ems_graduation values('0015','脢碌录霉陆脤脩搂脜脜驴脦脧碌脥鲁脡猫录脝','0002','10','10','2012-3-19 12:00:00','teacher','脪禄掳茫','脣霉脨毛脰陋脢露拢潞脫茂脩脭拢潞C/C++/C#,,Java碌脠隆拢,脢媒戮脻驴芒拢潞MS SQL,Mysql,Oracle碌脠隆拢路镁脦帽脝梅拢潞tomcat,IIS碌脠隆拢驴陋路垄鹿陇戮脽拢潞Eclipse,Myeclipse,visual studio,plsqldev ,navicat,Rational Rose ,PowerDesigner,Visio碌脠隆拢');
+insert into ems_graduation values('0016','脥酶脗莽陆脤脩搂脳脢脭麓驴芒脡猫录脝','0002','10','10','2012-3-19 12:00:00','teacher','脪禄掳茫','脣霉脨毛脰陋脢露拢潞脫茂脩脭拢潞C/C++/C#,,Java碌脠隆拢,脢媒戮脻驴芒拢潞MS SQL,Mysql,Oracle碌脠隆拢路镁脦帽脝梅拢潞tomcat,IIS碌脠隆拢驴陋路垄鹿陇戮脽拢潞Eclipse,Myeclipse,visual studio,plsqldev ,navicat,Rational Rose ,PowerDesigner,Visio碌脠隆拢');
+insert into ems_graduation values('0017','脢碌脩茅脪脟脝梅脡猫卤赂鹿脺脌铆脝陆脤篓脡猫录脝','0002','10','10','2012-3-19 12:00:00','teacher','脪禄掳茫','脣霉脨毛脰陋脢露拢潞脫茂脩脭拢潞C/C++/C#,,Java碌脠隆拢,脢媒戮脻驴芒拢潞MS SQL,Mysql,Oracle碌脠隆拢路镁脦帽脝梅拢潞tomcat,IIS碌脠隆拢驴陋路垄鹿陇戮脽拢潞Eclipse,Myeclipse,visual studio,plsqldev ,navicat,Rational Rose ,PowerDesigner,Visio碌脠隆拢');
+insert into ems_graduation values('0018','禄霉脫脷路脰脨脦碌脛露炉禄颅脤脴脨搂脡猫录脝','0002','10','10','2012-3-19 12:00:00','teacher','脪禄掳茫','脣霉脨毛脰陋脢露拢潞脫茂脩脭拢潞C/C++/C#,,Java碌脠隆拢,脢媒戮脻驴芒拢潞MS SQL,Mysql,Oracle碌脠隆拢路镁脦帽脝梅拢潞tomcat,IIS碌脠隆拢驴陋路垄鹿陇戮脽拢潞Eclipse,Myeclipse,visual studio,plsqldev ,navicat,Rational Rose ,PowerDesigner,Visio碌脠隆拢');
+insert into ems_graduation values('0019','碌莽脳脫脦脛碌碌赂麓脰脝脠隆脰陇脩脨戮驴','0002','10','10','2012-3-19 12:00:00','teacher','脪禄掳茫','脣霉脨毛脰陋脢露拢潞脫茂脩脭拢潞C/C++/C#,,Java碌脠隆拢,脢媒戮脻驴芒拢潞MS SQL,Mysql,Oracle碌脠隆拢路镁脦帽脝梅拢潞tomcat,IIS碌脠隆拢驴陋路垄鹿陇戮脽拢潞Eclipse,Myeclipse,visual studio,plsqldev ,navicat,Rational Rose ,PowerDesigner,Visio碌脠隆拢');
+insert into ems_graduation values('0020','脫隆脣垄脤氓脦脛碌碌脢媒脳脰脣庐脫隆脡猫录脝','0002','10','10','2012-3-19 12:00:00','teacher','脪禄掳茫','脣霉脨毛脰陋脢露拢潞脫茂脩脭拢潞C/C++/C#,,Java碌脠隆拢,脢媒戮脻驴芒拢潞MS SQL,Mysql,Oracle碌脠隆拢路镁脦帽脝梅拢潞tomcat,IIS碌脠隆拢驴陋路垄鹿陇戮脽拢潞Eclipse,Myeclipse,visual studio,plsqldev ,navicat,Rational Rose ,PowerDesigner,Visio碌脠隆拢');
+insert into ems_graduation values('0021','禄霉脫脷ARM碌脛脰脟脛脺录脪戮脫脧碌脥鲁','0003','10','10','2012-3-19 12:00:00','teacher','脪禄掳茫','脣霉脨毛脰陋脢露拢潞脫茂脩脭拢潞C/C++/C#,,Java碌脠隆拢,脢媒戮脻驴芒拢潞MS SQL,Mysql,Oracle碌脠隆拢路镁脦帽脝梅拢潞tomcat,IIS碌脠隆拢驴陋路垄鹿陇戮脽拢潞Eclipse,Myeclipse,visual studio,plsqldev ,navicat,Rational Rose ,PowerDesigner,Visio碌脠隆拢');
+insert into ems_graduation values('0022','禄霉脫脷Android脝陆脤篓碌脛3G脕梅脕驴录矛虏芒脧碌脥鲁','0003','10','10','2012-3-19 12:00:00','teacher','脪禄掳茫','脣霉脨毛脰陋脢露拢潞脫茂脩脭拢潞C/C++/C#,,Java碌脠隆拢,脢媒戮脻驴芒拢潞MS SQL,Mysql,Oracle碌脠隆拢路镁脦帽脝梅拢潞tomcat,IIS碌脠隆拢驴陋路垄鹿陇戮脽拢潞Eclipse,Myeclipse,visual studio,plsqldev ,navicat,Rational Rose ,PowerDesigner,Visio碌脠隆拢');
+insert into ems_graduation values('0044','禄霉脫脷android脝陆脤篓碌脛脰脨脫垄脦脛麓脢碌盲','0003','10','10','2012-3-19 12:00:00','teacher','脪禄掳茫','脣霉脨毛脰陋脢露拢潞脫茂脩脭拢潞C/C++/C#,,Java碌脠隆拢,脢媒戮脻驴芒拢潞MS SQL,Mysql,Oracle碌脠隆拢路镁脦帽脝梅拢潞tomcat,IIS碌脠隆拢驴陋路垄鹿陇戮脽拢潞Eclipse,Myeclipse,visual studio,plsqldev ,navicat,Rational Rose ,PowerDesigner,Visio碌脠隆拢');
+insert into ems_graduation values('0023','LINUX脧脗赂枚脠脣路脌禄冒脟陆','0003','10','10','2012-3-19 12:00:00','teacher','脪禄掳茫','脣霉脨毛脰陋脢露拢潞脫茂脩脭拢潞C/C++/C#,,Java碌脠隆拢,脢媒戮脻驴芒拢潞MS SQL,Mysql,Oracle碌脠隆拢路镁脦帽脝梅拢潞tomcat,IIS碌脠隆拢驴陋路垄鹿陇戮脽拢潞Eclipse,Myeclipse,visual studio,plsqldev ,navicat,Rational Rose ,PowerDesigner,Visio碌脠隆拢');
+insert into ems_graduation values('0024','禄霉脫脷MAPX碌脛鹿芦陆禄鲁碌脕戮脢碌脢卤录脿驴脴脡猫录脝脫毛脩脨路垄','0003','10','10','2012-3-19 12:00:00','teacher','脪禄掳茫','脣霉脨毛脰陋脢露拢潞脫茂脩脭拢潞C/C++/C#,,Java碌脠隆拢,脢媒戮脻驴芒拢潞MS SQL,Mysql,Oracle碌脠隆拢路镁脦帽脝梅拢潞tomcat,IIS碌脠隆拢驴陋路垄鹿陇戮脽拢潞Eclipse,Myeclipse,visual studio,plsqldev ,navicat,Rational Rose ,PowerDesigner,Visio碌脠隆拢');
+insert into ems_graduation values('0025','GPS脰脟脛脺鲁颅卤铆脰脮露脣脧碌脥鲁','0003','10','10','2012-3-19 12:00:00','teacher','脪禄掳茫','脣霉脨毛脰陋脢露拢潞脫茂脩脭拢潞C/C++/C#,,Java碌脠隆拢,脢媒戮脻驴芒拢潞MS SQL,Mysql,Oracle碌脠隆拢路镁脦帽脝梅拢潞tomcat,IIS碌脠隆拢驴陋路垄鹿陇戮脽拢潞Eclipse,Myeclipse,visual studio,plsqldev ,navicat,Rational Rose ,PowerDesigner,Visio碌脠隆拢');
+insert into ems_graduation values('0026','碌莽脕娄鲁颅卤铆脧碌脥鲁碌录潞陆脰脨碌脛脫娄脫脙脩脨戮驴潞脥脣茫路篓脡猫录脝','0003','10','10','2012-3-19 12:00:00','teacher','脪禄掳茫','脣霉脨毛脰陋脢露拢潞脫茂脩脭拢潞C/C++/C#,,Java碌脠隆拢,脢媒戮脻驴芒拢潞MS SQL,Mysql,Oracle碌脠隆拢路镁脦帽脝梅拢潞tomcat,IIS碌脠隆拢驴陋路垄鹿陇戮脽拢潞Eclipse,Myeclipse,visual studio,plsqldev ,navicat,Rational Rose ,PowerDesigner,Visio碌脠隆拢');
+insert into ems_graduation values('0027','脡脤脝路脥脜鹿潞脥酶碌脛脡猫录脝脫毛驴陋路垄','0004','10','10','2012-3-19 12:00:00','teacher','脪禄掳茫','脣霉脨毛脰陋脢露拢潞脫茂脩脭拢潞C/C++/C#,,Java碌脠隆拢,脢媒戮脻驴芒拢潞MS SQL,Mysql,Oracle碌脠隆拢路镁脦帽脝梅拢潞tomcat,IIS碌脠隆拢驴陋路垄鹿陇戮脽拢潞Eclipse,Myeclipse,visual studio,plsqldev ,navicat,Rational Rose ,PowerDesigner,Visio碌脠隆拢');
+insert into ems_graduation values('0028',' 脰脟脛脺脣脩脣梅脪媒脟忙碌脛脣茫路篓路脰脦枚脫毛脡猫录脝','0004','10','10','2012-3-19 12:00:00','teacher','脪禄掳茫','脣霉脨毛脰陋脢露拢潞脫茂脩脭拢潞C/C++/C#,,Java碌脠隆拢,脢媒戮脻驴芒拢潞MS SQL,Mysql,Oracle碌脠隆拢路镁脦帽脝梅拢潞tomcat,IIS碌脠隆拢驴陋路垄鹿陇戮脽拢潞Eclipse,Myeclipse,visual studio,plsqldev ,navicat,Rational Rose ,PowerDesigner,Visio碌脠隆拢');
+insert into ems_graduation values('0029','赂脽碌脠脰掳脪碌陆脤脫媒脨脜脧垄鹿脺脌铆脨脜脧垄脧碌脥鲁碌脛脡猫录脝脫毛脢碌脧脰','0004','10','10','2012-3-19 12:00:00','teacher','脪禄掳茫','脣霉脨毛脰陋脢露拢潞脫茂脩脭拢潞C/C++/C#,,Java碌脠隆拢,脢媒戮脻驴芒拢潞MS SQL,Mysql,Oracle碌脠隆拢路镁脦帽脝梅拢潞tomcat,IIS碌脠隆拢驴陋路垄鹿陇戮脽拢潞Eclipse,Myeclipse,visual studio,plsqldev ,navicat,Rational Rose ,PowerDesigner,Visio碌脠隆拢');
+insert into ems_graduation values('0030','禄霉脫脷WEB碌脛脠铆录镁脣庐脝陆驴录脢脭脝陆脤篓碌脛脡猫录脝脫毛驴陋路垄','0004','10','10','2012-3-19 12:00:00','teacher','脪禄掳茫','脣霉脨毛脰陋脢露拢潞脫茂脩脭拢潞C/C++/C#,,Java碌脠隆拢,脢媒戮脻驴芒拢潞MS SQL,Mysql,Oracle碌脠隆拢路镁脦帽脝梅拢潞tomcat,IIS碌脠隆拢驴陋路垄鹿陇戮脽拢潞Eclipse,Myeclipse,visual studio,plsqldev ,navicat,Rational Rose ,PowerDesigner,Visio碌脠隆拢');
+insert into ems_graduation values('0031','脣芦脫茂陆脤脩搂戮芦脝路驴脦鲁脤脧碌脥鲁碌脛脡猫录脝脫毛脢碌脧脰','0004','10','10','2012-3-19 12:00:00','teacher','脪禄掳茫','脣霉脨毛脰陋脢露拢潞脫茂脩脭拢潞C/C++/C#,,Java碌脠隆拢,脢媒戮脻驴芒拢潞MS SQL,Mysql,Oracle碌脠隆拢路镁脦帽脝梅拢潞tomcat,IIS碌脠隆拢驴陋路垄鹿陇戮脽拢潞Eclipse,Myeclipse,visual studio,plsqldev ,navicat,Rational Rose ,PowerDesigner,Visio碌脠隆拢');
+insert into ems_graduation values('0032','脡煤脦茂脪卤陆冒碌脛脢媒戮脻虏脰驴芒脫毛脢媒戮脻脥脷戮貌碌脛脣茫路篓脡猫录脝脫毛脢碌脧脰','0004','10','10','2012-3-19 12:00:00','teacher','脪禄掳茫','脣霉脨毛脰陋脢露拢潞脫茂脩脭拢潞C/C++/C#,,Java碌脠隆拢,脢媒戮脻驴芒拢潞MS SQL,Mysql,Oracle碌脠隆拢路镁脦帽脝梅拢潞tomcat,IIS碌脠隆拢驴陋路垄鹿陇戮脽拢潞Eclipse,Myeclipse,visual studio,plsqldev ,navicat,Rational Rose ,PowerDesigner,Visio碌脠隆拢');
+insert into ems_graduation values('0033','脭脝录脝脣茫脰脮露脣碌脛路脰脦枚脫毛脡猫录脝','0004','10','10','2012-3-19 12:00:00','teacher','脪禄掳茫','脣霉脨毛脰陋脢露拢潞脫茂脩脭拢潞C/C++/C#,,Java碌脠隆拢,脢媒戮脻驴芒拢潞MS SQL,Mysql,Oracle碌脠隆拢路镁脦帽脝梅拢潞tomcat,IIS碌脠隆拢驴陋路垄鹿陇戮脽拢潞Eclipse,Myeclipse,visual studio,plsqldev ,navicat,Rational Rose ,PowerDesigner,Visio碌脠隆拢');
+insert into ems_graduation values('0034','脭脝录脝脣茫路镁脦帽脝梅碌脛路脰脦枚脫毛脡猫录脝','0004','10','10','2012-3-19 12:00:00','teacher','脪禄掳茫','脣霉脨毛脰陋脢露拢潞脫茂脩脭拢潞C/C++/C#,,Java碌脠隆拢,脢媒戮脻驴芒拢潞MS SQL,Mysql,Oracle碌脠隆拢路镁脦帽脝梅拢潞tomcat,IIS碌脠隆拢驴陋路垄鹿陇戮脽拢潞Eclipse,Myeclipse,visual studio,plsqldev ,navicat,Rational Rose ,PowerDesigner,Visio碌脠隆拢');
+insert into ems_graduation values('0035','脦脛碌碌脢媒脳脰脣庐脫隆碌脛脡猫录脝脫毛驴陋路垄','0004','10','10','2012-3-19 12:00:00','teacher','脪禄掳茫','脣霉脨毛脰陋脢露拢潞脫茂脩脭拢潞C/C++/C#,,Java碌脠隆拢,脢媒戮脻驴芒拢潞MS SQL,Mysql,Oracle碌脠隆拢路镁脦帽脝梅拢潞tomcat,IIS碌脠隆拢驴陋路垄鹿陇戮脽拢潞Eclipse,Myeclipse,visual studio,plsqldev ,navicat,Rational Rose ,PowerDesigner,Visio碌脠隆拢');
+insert into ems_graduation values('0036','禄霉脫脷Android脢脰禄煤脝陆脤篓碌脛脪么脌脰虏楼路脜脝梅碌脛脡猫录脝脫毛脢碌脧脰','0004','10','10','2012-3-19 12:00:00','teacher','脪禄掳茫','脣霉脨毛脰陋脢露拢潞脫茂脩脭拢潞C/C++/C#,,Java碌脠隆拢,脢媒戮脻驴芒拢潞MS SQL,Mysql,Oracle碌脠隆拢路镁脦帽脝梅拢潞tomcat,IIS碌脠隆拢驴陋路垄鹿陇戮脽拢潞Eclipse,Myeclipse,visual studio,plsqldev ,navicat,Rational Rose ,PowerDesigner,Visio碌脠隆拢');
+insert into ems_graduation values('0037','陆脤脢娄鹿陇脳梅脕驴鹿脺脌铆脧碌脥鲁','0005','10','10','2012-3-19 12:00:00','teacher','脪禄掳茫','脣霉脨毛脰陋脢露拢潞脫茂脩脭拢潞C/C++/C#,,Java碌脠隆拢,脢媒戮脻驴芒拢潞MS SQL,Mysql,Oracle碌脠隆拢路镁脦帽脝梅拢潞tomcat,IIS碌脠隆拢驴陋路垄鹿陇戮脽拢潞Eclipse,Myeclipse,visual studio,plsqldev ,navicat,Rational Rose ,PowerDesigner,Visio碌脠隆拢');
+insert into ems_graduation values('0038','脝贸脪碌潞脧脥卢鹿脺脌铆脧碌脥鲁','0005','10','10','2012-3-19 12:00:00','teacher','脪禄掳茫','脣霉脨毛脰陋脢露拢潞脫茂脩脭拢潞C/C++/C#,,Java碌脠隆拢,脢媒戮脻驴芒拢潞MS SQL,Mysql,Oracle碌脠隆拢路镁脦帽脝梅拢潞tomcat,IIS碌脠隆拢驴陋路垄鹿陇戮脽拢潞Eclipse,Myeclipse,visual studio,plsqldev ,navicat,Rational Rose ,PowerDesigner,Visio碌脠隆拢');
+insert into ems_graduation values('0039','陆脤脩搂脙脴脢茅脧碌脥鲁','0005','10','10','2012-3-19 12:00:00','teacher','脪禄掳茫','脣霉脨毛脰陋脢露拢潞脫茂脩脭拢潞C/C++/C#,,Java碌脠隆拢,脢媒戮脻驴芒拢潞MS SQL,Mysql,Oracle碌脠隆拢路镁脦帽脝梅拢潞tomcat,IIS碌脠隆拢驴陋路垄鹿陇戮脽拢潞Eclipse,Myeclipse,visual studio,plsqldev ,navicat,Rational Rose ,PowerDesigner,Visio碌脠隆拢');
+insert into ems_graduation values('0040','脰脨脨隆脝贸脪碌鲁脡卤戮潞脣脣茫脧碌脥鲁','0005','10','10','2012-3-19 12:00:00','teacher','脪禄掳茫','脣霉脨毛脰陋脢露拢潞脫茂脩脭拢潞C/C++/C#,,Java碌脠隆拢,脢媒戮脻驴芒拢潞MS SQL,Mysql,Oracle碌脠隆拢路镁脦帽脝梅拢潞tomcat,IIS碌脠隆拢驴陋路垄鹿陇戮脽拢潞Eclipse,Myeclipse,visual studio,plsqldev ,navicat,Rational Rose ,PowerDesigner,Visio碌脠隆拢');
+insert into ems_graduation values('0041','露镁脦卢脗毛卤脿脗毛陆芒脗毛脝梅脡猫录脝','0006','10','10','2012-3-19 12:00:00','teacher','脪禄掳茫','脣霉脨毛脰陋脢露拢潞脫茂脩脭拢潞C/C++/C#,,Java碌脠隆拢,脢媒戮脻驴芒拢潞MS SQL,Mysql,Oracle碌脠隆拢路镁脦帽脝梅拢潞tomcat,IIS碌脠隆拢驴陋路垄鹿陇戮脽拢潞Eclipse,Myeclipse,visual studio,plsqldev ,navicat,Rational Rose ,PowerDesigner,Visio碌脠隆拢');
+insert into ems_graduation values('0042','脫脙禄么路貌脗眉卤脿脗毛脢碌脧脰碌脛脢媒脳脰脥录脧帽脦脼脣冒脩鹿脣玫','0006','10','10','2012-3-19 12:00:00','teacher','脪禄掳茫','脣霉脨毛脰陋脢露拢潞脫茂脩脭拢潞C/C++/C#,,Java碌脠隆拢,脢媒戮脻驴芒拢潞MS SQL,Mysql,Oracle碌脠隆拢路镁脦帽脝梅拢潞tomcat,IIS碌脠隆拢驴陋路垄鹿陇戮脽拢潞Eclipse,Myeclipse,visual studio,plsqldev ,navicat,Rational Rose ,PowerDesigner,Visio碌脠隆拢');
+insert into ems_graduation values('0043','露镁脢脰路驴脳芒脢脹脥酶脮戮脡猫录脝','0006','10','10','2012-3-19 12:00:00','teacher','脪禄掳茫','脣霉脨毛脰陋脢露拢潞脫茂脩脭拢潞C/C++/C#,,Java碌脠隆拢,脢媒戮脻驴芒拢潞MS SQL,Mysql,Oracle碌脠隆拢路镁脦帽脝梅拢潞tomcat,IIS碌脠隆拢驴陋路垄鹿陇戮脽拢潞Eclipse,Myeclipse,visual studio,plsqldev ,navicat,Rational Rose ,PowerDesigner,Visio碌脠隆拢');
+insert into ems_graduation values('0045','脨隆脟酶脦茂脪碌鹿脺脌铆脧碌脥鲁','0007','10','10','2012-3-19 12:00:00','teacher','脪禄掳茫','脣霉脨毛脰陋脢露拢潞脫茂脩脭拢潞C/C++/C#,,Java碌脠隆拢,脢媒戮脻驴芒拢潞MS SQL,Mysql,Oracle碌脠隆拢路镁脦帽脝梅拢潞tomcat,IIS碌脠隆拢驴陋路垄鹿陇戮脽拢潞Eclipse,Myeclipse,visual studio,plsqldev ,navicat,Rational Rose ,PowerDesigner,Visio碌脠隆拢');
 
 create table ems_graduateGrade(
  idnum varchar(20),                 
@@ -186,46 +186,46 @@ create table ems_graduateGrade(
  remark varchar(300)              
  
 );
-insert into ems_graduateGrade values('0001','0001','2008180538',null,TO_DATE('2012-2-1 12:00:00','YYYY-MM-DD HH24:MI:SS'),null);
-insert into ems_graduateGrade values('0002','0001','2008180530',null,TO_DATE('2012-2-1 12:00:00','YYYY-MM-DD HH24:MI:SS'),null);
-insert into ems_graduateGrade values('0003','0001','2008180523',null,TO_DATE('2012-2-1 12:00:00','YYYY-MM-DD HH24:MI:SS'),null);
-insert into ems_graduateGrade values('0004','0022','2008180517',null,TO_DATE('2012-2-1 12:00:00','YYYY-MM-DD HH24:MI:SS'),null);
-insert into ems_graduateGrade values('0005','0022','2008180518',null,TO_DATE('2012-2-1 12:00:00','YYYY-MM-DD HH24:MI:SS'),null);
-insert into ems_graduateGrade values('0006','0022','2008180539',null,TO_DATE('2012-2-1 12:00:00','YYYY-MM-DD HH24:MI:SS'),null);
-insert into ems_graduateGrade values('0007','0036','2008180520',null,TO_DATE('2012-2-1 12:00:00','YYYY-MM-DD HH24:MI:SS'),null);
-insert into ems_graduateGrade values('0008','0036','2008180511',null,TO_DATE('2012-2-1 12:00:00','YYYY-MM-DD HH24:MI:SS'),null);
-insert into ems_graduateGrade values('0009','0044','2008180506',null,TO_DATE('2012-2-1 12:00:00','YYYY-MM-DD HH24:MI:SS'),null);
-insert into ems_graduateGrade values('0010','0044','2008180540',null,TO_DATE('2012-2-1 12:00:00','YYYY-MM-DD HH24:MI:SS'),null);
-insert into ems_graduateGrade values('0011','0003','2008180532',null,TO_DATE('2012-2-1 12:00:00','YYYY-MM-DD HH24:MI:SS'),null);
-insert into ems_graduateGrade values('0012','0003','2008180519',null,TO_DATE('2012-2-1 12:00:00','YYYY-MM-DD HH24:MI:SS'),null);
-insert into ems_graduateGrade values('0013','0043','2008180527',null,TO_DATE('2012-2-1 12:00:00','YYYY-MM-DD HH24:MI:SS'),null);
-insert into ems_graduateGrade values('0014','0043','2008180510',null,TO_DATE('2012-2-1 12:00:00','YYYY-MM-DD HH24:MI:SS'),null);
-insert into ems_graduateGrade values('0015','0043','2008180533',null,TO_DATE('2012-2-1 12:00:00','YYYY-MM-DD HH24:MI:SS'),null);
-insert into ems_graduateGrade values('0016','0043','2008180528',null,TO_DATE('2012-2-1 12:00:00','YYYY-MM-DD HH24:MI:SS'),null);
-insert into ems_graduateGrade values('0017','0041','2008180536',null,TO_DATE('2012-2-1 12:00:00','YYYY-MM-DD HH24:MI:SS'),null);
-insert into ems_graduateGrade values('0018','0041','2008180509',null,TO_DATE('2012-2-1 12:00:00','YYYY-MM-DD HH24:MI:SS'),null);
-insert into ems_graduateGrade values('0019','0030','2008180507',null,TO_DATE('2012-2-1 12:00:00','YYYY-MM-DD HH24:MI:SS'),null);
-insert into ems_graduateGrade values('0020','0030','2008180542',null,TO_DATE('2012-2-1 12:00:00','YYYY-MM-DD HH24:MI:SS'),null);
-insert into ems_graduateGrade values('0021','0013','2008180503',null,TO_DATE('2012-2-1 12:00:00','YYYY-MM-DD HH24:MI:SS'),null);
-insert into ems_graduateGrade values('0022','0013','2008180512',null,TO_DATE('2012-2-1 12:00:00','YYYY-MM-DD HH24:MI:SS'),null);
-insert into ems_graduateGrade values('0023','0023','2008180526',null,TO_DATE('2012-2-1 12:00:00','YYYY-MM-DD HH24:MI:SS'),null);
-insert into ems_graduateGrade values('0024','0023','2008180521',null,TO_DATE('2012-2-1 12:00:00','YYYY-MM-DD HH24:MI:SS'),null);
-insert into ems_graduateGrade values('0025','0024','2008180524',null,TO_DATE('2012-2-1 12:00:00','YYYY-MM-DD HH24:MI:SS'),null);
-insert into ems_graduateGrade values('0026','0002','2008180541',null,TO_DATE('2012-2-1 12:00:00','YYYY-MM-DD HH24:MI:SS'),null);
-insert into ems_graduateGrade values('0027','0002','2008180531',null,TO_DATE('2012-2-1 12:00:00','YYYY-MM-DD HH24:MI:SS'),null);
-insert into ems_graduateGrade values('0028','0006','2008180515',null,TO_DATE('2012-2-1 12:00:00','YYYY-MM-DD HH24:MI:SS'),null);
-insert into ems_graduateGrade values('0029','0006','2008180505',null,TO_DATE('2012-2-1 12:00:00','YYYY-MM-DD HH24:MI:SS'),null);
-insert into ems_graduateGrade values('0030','0029','2008180501',null,TO_DATE('2012-2-1 12:00:00','YYYY-MM-DD HH24:MI:SS'),null);
-insert into ems_graduateGrade values('0031','0029','2008180502',null,TO_DATE('2012-2-1 12:00:00','YYYY-MM-DD HH24:MI:SS'),null);
-insert into ems_graduateGrade values('0032','0010','2008180508',null,TO_DATE('2012-2-1 12:00:00','YYYY-MM-DD HH24:MI:SS'),null);
-insert into ems_graduateGrade values('0033','0014','2008180522',null,TO_DATE('2012-2-1 12:00:00','YYYY-MM-DD HH24:MI:SS'),null);
-insert into ems_graduateGrade values('0034','0025','2008180534',null,TO_DATE('2012-2-1 12:00:00','YYYY-MM-DD HH24:MI:SS'),null);
-insert into ems_graduateGrade values('0035','0025','2008180516',null,TO_DATE('2012-2-1 12:00:00','YYYY-MM-DD HH24:MI:SS'),null);
-insert into ems_graduateGrade values('0036','0025','2008180513',null,TO_DATE('2012-2-1 12:00:00','YYYY-MM-DD HH24:MI:SS'),null);
-insert into ems_graduateGrade values('0037','0013','2008180514',null,TO_DATE('2012-2-1 12:00:00','YYYY-MM-DD HH24:MI:SS'),null);
-insert into ems_graduateGrade values('0038','0013','2008180504',null,TO_DATE('2012-2-1 12:00:00','YYYY-MM-DD HH24:MI:SS'),null);
-insert into ems_graduateGrade values('0039','0013','2008180537',null,TO_DATE('2012-2-1 12:00:00','YYYY-MM-DD HH24:MI:SS'),null);
-insert into ems_graduateGrade values('0040','0026','2008180535',null,TO_DATE('2012-2-1 12:00:00','YYYY-MM-DD HH24:MI:SS'),null);
+insert into ems_graduateGrade values('0001','0001','2008180538',null,'2012-2-1 12:00:00',null);
+insert into ems_graduateGrade values('0002','0001','2008180530',null,'2012-2-1 12:00:00',null);
+insert into ems_graduateGrade values('0003','0001','2008180523',null,'2012-2-1 12:00:00',null);
+insert into ems_graduateGrade values('0004','0022','2008180517',null,'2012-2-1 12:00:00',null);
+insert into ems_graduateGrade values('0005','0022','2008180518',null,'2012-2-1 12:00:00',null);
+insert into ems_graduateGrade values('0006','0022','2008180539',null,'2012-2-1 12:00:00',null);
+insert into ems_graduateGrade values('0007','0036','2008180520',null,'2012-2-1 12:00:00',null);
+insert into ems_graduateGrade values('0008','0036','2008180511',null,'2012-2-1 12:00:00',null);
+insert into ems_graduateGrade values('0009','0044','2008180506',null,'2012-2-1 12:00:00',null);
+insert into ems_graduateGrade values('0010','0044','2008180540',null,'2012-2-1 12:00:00',null);
+insert into ems_graduateGrade values('0011','0003','2008180532',null,'2012-2-1 12:00:00',null);
+insert into ems_graduateGrade values('0012','0003','2008180519',null,'2012-2-1 12:00:00',null);
+insert into ems_graduateGrade values('0013','0043','2008180527',null,'2012-2-1 12:00:00',null);
+insert into ems_graduateGrade values('0014','0043','2008180510',null,'2012-2-1 12:00:00',null);
+insert into ems_graduateGrade values('0015','0043','2008180533',null,'2012-2-1 12:00:00',null);
+insert into ems_graduateGrade values('0016','0043','2008180528',null,'2012-2-1 12:00:00',null);
+insert into ems_graduateGrade values('0017','0041','2008180536',null,'2012-2-1 12:00:00',null);
+insert into ems_graduateGrade values('0018','0041','2008180509',null,'2012-2-1 12:00:00',null);
+insert into ems_graduateGrade values('0019','0030','2008180507',null,'2012-2-1 12:00:00',null);
+insert into ems_graduateGrade values('0020','0030','2008180542',null,'2012-2-1 12:00:00',null);
+insert into ems_graduateGrade values('0021','0013','2008180503',null,'2012-2-1 12:00:00',null);
+insert into ems_graduateGrade values('0022','0013','2008180512',null,'2012-2-1 12:00:00',null);
+insert into ems_graduateGrade values('0023','0023','2008180526',null,'2012-2-1 12:00:00',null);
+insert into ems_graduateGrade values('0024','0023','2008180521',null,'2012-2-1 12:00:00',null);
+insert into ems_graduateGrade values('0025','0024','2008180524',null,'2012-2-1 12:00:00',null);
+insert into ems_graduateGrade values('0026','0002','2008180541',null,'2012-2-1 12:00:00',null);
+insert into ems_graduateGrade values('0027','0002','2008180531',null,'2012-2-1 12:00:00',null);
+insert into ems_graduateGrade values('0028','0006','2008180515',null,'2012-2-1 12:00:00',null);
+insert into ems_graduateGrade values('0029','0006','2008180505',null,'2012-2-1 12:00:00',null);
+insert into ems_graduateGrade values('0030','0029','2008180501',null,'2012-2-1 12:00:00',null);
+insert into ems_graduateGrade values('0031','0029','2008180502',null,'2012-2-1 12:00:00',null);
+insert into ems_graduateGrade values('0032','0010','2008180508',null,'2012-2-1 12:00:00',null);
+insert into ems_graduateGrade values('0033','0014','2008180522',null,'2012-2-1 12:00:00',null);
+insert into ems_graduateGrade values('0034','0025','2008180534',null,'2012-2-1 12:00:00',null);
+insert into ems_graduateGrade values('0035','0025','2008180516',null,'2012-2-1 12:00:00',null);
+insert into ems_graduateGrade values('0036','0025','2008180513',null,'2012-2-1 12:00:00',null);
+insert into ems_graduateGrade values('0037','0013','2008180514',null,'2012-2-1 12:00:00',null);
+insert into ems_graduateGrade values('0038','0013','2008180504',null,'2012-2-1 12:00:00',null);
+insert into ems_graduateGrade values('0039','0013','2008180537',null,'2012-2-1 12:00:00',null);
+insert into ems_graduateGrade values('0040','0026','2008180535',null,'2012-2-1 12:00:00',null);
 
 
 create table EMS_CLASSTYPE(
@@ -236,10 +236,10 @@ create table EMS_CLASSTYPE(
        
 );
 
-insert into ems_classtype values('0001','公共必修课',null);
-insert into ems_classtype values('0002','专业必修课',null);
-insert into ems_classtype values('0003','专业限选课',null);
-insert into ems_classtype values('0004','任意选修课',null);
+insert into ems_classtype values('0001','鹿芦鹿虏卤脴脨脼驴脦',null);
+insert into ems_classtype values('0002','脳篓脪碌卤脴脨脼驴脦',null);
+insert into ems_classtype values('0003','脳篓脪碌脧脼脩隆驴脦',null);
+insert into ems_classtype values('0004','脠脦脪芒脩隆脨脼驴脦',null);
 
 
 create table ems_class(
@@ -256,32 +256,32 @@ create table ems_class(
        remark  varchar(300)              
      
 );
-insert into ems_class values('0001','大学英语（一）','0001','0008','1','2008',null,'50','10',TO_DATE('2008-8-1 12:00:00','YYYY-MM-DD HH24:MI:SS'),null);
-insert into ems_class values('0002','电路','0004','0010','1','2008',null,'50','10',TO_DATE('2008-8-1 12:00:50','YYYY-MM-DD HH24:MI:SS'),null);
-insert into ems_class values('0003','普通物理（一）','0003','0009','1','2008','0001','50','10',TO_DATE('2008-8-1 12:00:50','YYYY-MM-DD HH24:MI:SS'),null);
-insert into ems_class values('0004','概率论与数理统计','0002','0010','2','2008','0001','50','10',TO_DATE('2009-2-1 12:00:50','YYYY-MM-DD HH24:MI:SS'),null);
-insert into ems_class values('0005','高等数学（二）','0001','0009','2','2008',null,'50','0',TO_DATE('2009-2-1 12:00:50','YYYY-MM-DD HH24:MI:SS'),null);
-insert into ems_class values('0006','军事理论','0004','0001','2','2008',null,'50','10',TO_DATE('2009-2-1 12:00:50','YYYY-MM-DD HH24:MI:SS'),null);
-insert into ems_class values('0007','面向对象的程序设计（C++）','0003','0002','2','2008','0001','50','10',TO_DATE('2009-2-1 12:00:50','YYYY-MM-DD HH24:MI:SS'),null);
-insert into ems_class values('0008','复变函数与积分变换','0002','0010','1','2009','0001','50','10',TO_DATE('2009-8-1 12:00:50','YYYY-MM-DD HH24:MI:SS'),null);
-insert into ems_class values('0009','数据结构','0002','0005','1','2008','0001','50','10',TO_DATE('2009-8-1 12:00:50','YYYY-MM-DD HH24:MI:SS'),null);
-insert into ems_class values('0010','离散数学','0002','0007','1','2008','0001','50','10',TO_DATE('2009-8-1 12:00:50','YYYY-MM-DD HH24:MI:SS'),null);
-insert into ems_class values('0011','操作系统','0002','0005','2','2008','0001','50','10',TO_DATE('2010-2-1 12:00:50','YYYY-MM-DD HH24:MI:SS'),null);
-insert into ems_class values('0012','计算机组成原理','0003','0010','2','2008','0001','50','10',TO_DATE('2010-2-1 12:00:50','YYYY-MM-DD HH24:MI:SS'),null);
-insert into ems_class values('0013','数据库原理','0002','0006','2','2008','0001','50','10',TO_DATE('2010-2-1 12:00:50','YYYY-MM-DD HH24:MI:SS'),null);
-insert into ems_class values('0014','Java语言程序设计','0002','0001','1','2008','0001','50','10',TO_DATE('2010-8-1 12:00:50','YYYY-MM-DD HH24:MI:SS'),null);
-insert into ems_class values('0015','计算机网络','0002','0002','1','2008','0001','50','10',TO_DATE('2010-8-1 12:00:50','YYYY-MM-DD HH24:MI:SS'),null);
-insert into ems_class values('0016','算法设计与数据结构课程设计','0002','0007','1','2008','0001','50','10',TO_DATE('2010-8-1 12:00:50','YYYY-MM-DD HH24:MI:SS'),null);
-insert into ems_class values('0017','现代教育技术基础','0004','0008','1','2008',null,'50','10',TO_DATE('2010-8-1 12:00:50','YYYY-MM-DD HH24:MI:SS'),null);
-insert into ems_class values('0018','Linux/Unix操作系统','0002','0003','2','2008','0001','50','10',TO_DATE('2011-2-1 12:00:50','YYYY-MM-DD HH24:MI:SS'),null);
-insert into ems_class values('0019','毛泽东思想和中国特色社会主义理论体系概论','0001','0008','2','2008',null,'50','10',TO_DATE('2011-2-1 12:00:50','YYYY-MM-DD HH24:MI:SS'),null);
-insert into ems_class values('0020','软件工程','0002','0001','2','2008','0001','50','10',TO_DATE('2011-2-1 12:00:50','YYYY-MM-DD HH24:MI:SS'),null);
-insert into ems_class values('0021','专业英语','0002','0004','2','2008','0001','50','10',TO_DATE('2011-2-1 12:00:50','YYYY-MM-DD HH24:MI:SS'),null);
-insert into ems_class values('0022','TCP/IP协议','0002','0004','1','2008','0001','50','10',TO_DATE('2011-8-1 12:00:50','YYYY-MM-DD HH24:MI:SS'),null);
-insert into ems_class values('0023','面向对象的系统分析与设计','0002','0001','1','2008','0001','50','10',TO_DATE('2011-8-1 12:00:50','YYYY-MM-DD HH24:MI:SS'),null);
-insert into ems_class values('0024','系统设计与开发实训','0002','0003','1','2008','0001','50','10',TO_DATE('2011-8-1 12:00:50','YYYY-MM-DD HH24:MI:SS'),null);
-insert into ems_class values('0025','文献检索','0002','0002','1','2008','0001','50','10',TO_DATE('2011-8-1 12:00:50','YYYY-MM-DD HH24:MI:SS'),null);
-insert into ems_class values('0026','毕业设计','0002','0003','2','2008','0001','50','10',TO_DATE('2012-2-1 12:00:50','YYYY-MM-DD HH24:MI:SS'),null);
+insert into ems_class values('0001','麓贸脩搂脫垄脫茂拢篓脪禄拢漏','0001','0008','1','2008',null,'50','10','2008-8-1 12:00:00',null);
+insert into ems_class values('0002','碌莽脗路','0004','0010','1','2008',null,'50','10','2008-8-1 12:00:50',null);
+insert into ems_class values('0003','脝脮脥篓脦茂脌铆拢篓脪禄拢漏','0003','0009','1','2008','0001','50','10','2008-8-1 12:00:50',null);
+insert into ems_class values('0004','赂脜脗脢脗脹脫毛脢媒脌铆脥鲁录脝','0002','0010','2','2008','0001','50','10','2009-2-1 12:00:50',null);
+insert into ems_class values('0005','赂脽碌脠脢媒脩搂拢篓露镁拢漏','0001','0009','2','2008',null,'50','0','2009-2-1 12:00:50',null);
+insert into ems_class values('0006','戮眉脢脗脌铆脗脹','0004','0001','2','2008',null,'50','10','2009-2-1 12:00:50',null);
+insert into ems_class values('0007','脙忙脧貌露脭脧贸碌脛鲁脤脨貌脡猫录脝拢篓C++拢漏','0003','0002','2','2008','0001','50','10','2009-2-1 12:00:50',null);
+insert into ems_class values('0008','赂麓卤盲潞炉脢媒脫毛禄媒路脰卤盲禄禄','0002','0010','1','2009','0001','50','10','2009-8-1 12:00:50',null);
+insert into ems_class values('0009','脢媒戮脻陆谩鹿鹿','0002','0005','1','2008','0001','50','10','2009-8-1 12:00:50',null);
+insert into ems_class values('0010','脌毛脡垄脢媒脩搂','0002','0007','1','2008','0001','50','10','2009-8-1 12:00:50',null);
+insert into ems_class values('0011','虏脵脳梅脧碌脥鲁','0002','0005','2','2008','0001','50','10','2010-2-1 12:00:50',null);
+insert into ems_class values('0012','录脝脣茫禄煤脳茅鲁脡脭颅脌铆','0003','0010','2','2008','0001','50','10','2010-2-1 12:00:50',null);
+insert into ems_class values('0013','脢媒戮脻驴芒脭颅脌铆','0002','0006','2','2008','0001','50','10','2010-2-1 12:00:50',null);
+insert into ems_class values('0014','Java脫茂脩脭鲁脤脨貌脡猫录脝','0002','0001','1','2008','0001','50','10','2010-8-1 12:00:50',null);
+insert into ems_class values('0015','录脝脣茫禄煤脥酶脗莽','0002','0002','1','2008','0001','50','10','2010-8-1 12:00:50',null);
+insert into ems_class values('0016','脣茫路篓脡猫录脝脫毛脢媒戮脻陆谩鹿鹿驴脦鲁脤脡猫录脝','0002','0007','1','2008','0001','50','10','2010-8-1 12:00:50',null);
+insert into ems_class values('0017','脧脰麓煤陆脤脫媒录录脢玫禄霉麓隆','0004','0008','1','2008',null,'50','10','2010-8-1 12:00:50',null);
+insert into ems_class values('0018','Linux/Unix虏脵脳梅脧碌脥鲁','0002','0003','2','2008','0001','50','10','2011-2-1 12:00:50',null);
+insert into ems_class values('0019','脙芦脭贸露芦脣录脧毛潞脥脰脨鹿煤脤脴脡芦脡莽禄谩脰梅脪氓脌铆脗脹脤氓脧碌赂脜脗脹','0001','0008','2','2008',null,'50','10','2011-2-1 12:00:50',null);
+insert into ems_class values('0020','脠铆录镁鹿陇鲁脤','0002','0001','2','2008','0001','50','10','2011-2-1 12:00:50',null);
+insert into ems_class values('0021','脳篓脪碌脫垄脫茂','0002','0004','2','2008','0001','50','10','2011-2-1 12:00:50',null);
+insert into ems_class values('0022','TCP/IP脨颅脪茅','0002','0004','1','2008','0001','50','10','2011-8-1 12:00:50',null);
+insert into ems_class values('0023','脙忙脧貌露脭脧贸碌脛脧碌脥鲁路脰脦枚脫毛脡猫录脝','0002','0001','1','2008','0001','50','10','2011-8-1 12:00:50',null);
+insert into ems_class values('0024','脧碌脥鲁脡猫录脝脫毛驴陋路垄脢碌脩碌','0002','0003','1','2008','0001','50','10','2011-8-1 12:00:50',null);
+insert into ems_class values('0025','脦脛脧脳录矛脣梅','0002','0002','1','2008','0001','50','10','2011-8-1 12:00:50',null);
+insert into ems_class values('0026','卤脧脪碌脡猫录脝','0002','0003','2','2008','0001','50','10','2012-2-1 12:00:50',null);
 
 
 
@@ -297,32 +297,17 @@ create table ems_courserecord(
    
 );
 
-insert into ems_courserecord values('0001','2008180501','0001','80',TO_DATE('2008-8-25 12:00:50','YYYY-MM-DD HH24:MI:SS'),null);
-insert into ems_courserecord values('0003','2008180501','0002','80',TO_DATE('2008-8-25 12:00:50','YYYY-MM-DD HH24:MI:SS'),null);
-insert into ems_courserecord values('0004','2008180501','0003','80',TO_DATE('2008-8-25 12:00:50','YYYY-MM-DD HH24:MI:SS'),null);
-insert into ems_courserecord values('0005','2008180501','0004','80',TO_DATE('2009-2-25 12:00:50','YYYY-MM-DD HH24:MI:SS'),null);
-insert into ems_courserecord values('0006','2008180501','0005','80',TO_DATE('2009-2-25 12:00:50','YYYY-MM-DD HH24:MI:SS'),null);
-insert into ems_courserecord values('0007','2008180501','0006','80',TO_DATE('2009-2-25 12:00:50','YYYY-MM-DD HH24:MI:SS'),null);
-insert into ems_courserecord values('0008','2008180501','0007','80',TO_DATE('2009-2-25 12:00:50','YYYY-MM-DD HH24:MI:SS'),null);
-insert into ems_courserecord values('0009','2008180501','0008','80',TO_DATE('2009-8-25 12:50:50','YYYY-MM-DD HH24:MI:SS'),null);
-insert into ems_courserecord values('0010','2008180501','0008','80',TO_DATE('2009-8-25 12:00:50','YYYY-MM-DD HH24:MI:SS'),null);
-insert into ems_courserecord values('0011','2008180501','0010','80',TO_DATE('2009-8-25 12:00:50','YYYY-MM-DD HH24:MI:SS'),null);
-insert into ems_courserecord values('0012','2008180501','0011','80',TO_DATE('2010-2-25 12:00:50','YYYY-MM-DD HH24:MI:SS'),null);
-insert into ems_courserecord values('0013','2008180501','0012','80',TO_DATE('2010-2-25 12:00:50','YYYY-MM-DD HH24:MI:SS'),null);
-insert into ems_courserecord values('0014','2008180501','0013','80',TO_DATE('2010-2-25 12:50:50','YYYY-MM-DD HH24:MI:SS'),null);
-insert into ems_courserecord values('0015','2008180501','0014','80',TO_DATE('2010-8-25 12:00:50','YYYY-MM-DD HH24:MI:SS'),null);
-insert into ems_courserecord values('0016','2008180501','0015','80',TO_DATE('2010-8-25 12:00:50','YYYY-MM-DD HH24:MI:SS'),null);
-insert into ems_courserecord values('0017','2008180501','0016','80',TO_DATE('2010-8-25 12:00:50','YYYY-MM-DD HH24:MI:SS'),null);
-insert into ems_courserecord values('0018','2008180501','0017','80',TO_DATE('2010-8-25 12:00:50','YYYY-MM-DD HH24:MI:SS'),null);
-insert into ems_courserecord values('0019','2008180501','0018','80',TO_DATE('2011-2-25 12:50:50','YYYY-MM-DD HH24:MI:SS'),null);
-insert into ems_courserecord values('0020','2008180501','0019','80',TO_DATE('2011-2-25 12:00:50','YYYY-MM-DD HH24:MI:SS'),null);
-insert into ems_courserecord values('0021','2008180501','0020','80',TO_DATE('2011-2-25 12:00:50','YYYY-MM-DD HH24:MI:SS'),null);
-insert into ems_courserecord values('0022','2008180501','0021','80',TO_DATE('2011-2-25 12:00:50','YYYY-MM-DD HH24:MI:SS'),null);
-insert into ems_courserecord values('0023','2008180501','0022','80',TO_DATE('2011-8-25 12:00:50','YYYY-MM-DD HH24:MI:SS'),null);
-insert into ems_courserecord values('0002','2008180501','0023','80',TO_DATE('2011-8-25 12:00:50','YYYY-MM-DD HH24:MI:SS'),null);
-insert into ems_courserecord values('0024','2008180501','0024','80',TO_DATE('2011-8-25 12:00:50','YYYY-MM-DD HH24:MI:SS'),null);
-insert into ems_courserecord values('0025','2008180501','0025','80',TO_DATE('2011-8-25 12:00:50','YYYY-MM-DD HH24:MI:SS'),null);
-insert into ems_courserecord values('0026','2008180501','0026',null,TO_DATE('2012-2-25 12:00:50','YYYY-MM-DD HH24:MI:SS'),null);
+insert into ems_courserecord values('0001','2008180501','0001','80','2008-8-25 12:00:50',null);
+insert into ems_courserecord values('0003','2008180501','0002','80','2008-8-25 12:00:50',null);
+insert into ems_courserecord values('0004','2008180501','0003','80','2008-8-25 12:00:50',null);
+insert into ems_courserecord values('0005','2008180501','0004','80','2009-2-25 12:00:50',null);
+insert into ems_courserecord values('0006','2008180501','0005','80','2009-2-25 12:00:50',null);
+insert into ems_courserecord values('0007','2008180501','0006','80','2009-2-25 12:00:50',null);
+insert into ems_courserecord values('0008','2008180501','0007','80','2009-2-25 12:00:50',null);
+insert into ems_courserecord values('0009','2008180501','0008','80','2009-8-25 12:50:50',null);
+insert into ems_courserecord values('0010','2008180501','0008','80','2009-8-25 12:00:50',null);
+insert into ems_courserecord values('0011','2008180501','0010','80','2009-8-25 12:00:50',null);
+
 
 
 
@@ -339,11 +324,11 @@ create table Ems_applyModifyLog(
        
 );
 
-insert into Ems_applyModifyLog values('0002','0001',TO_DATE('2012-2-8 12:50:50','YYYY-MM-DD HH24:MI:SS'),TO_DATE('2012-2-11 12:50:50','YYYY-MM-DD HH24:MI:SS'),'未通过','ems_teacher','0001','身份证号码位数不对');
-insert into Ems_applyModifyLog values('0001','2008180503',TO_DATE('2012-2-9 12:50:50','YYYY-MM-DD HH24:MI:SS'),TO_DATE('2012-2-12 12:50:50','YYYY-MM-DD HH24:MI:SS'),'未通过','ems_student','0002','姓名格式不对');
+insert into Ems_applyModifyLog values('0002','2008180501','2012-2-8 12:50:50','2012-2-11 12:50:50','脦麓脥篓鹿媒','ems_teacher','0001','脡铆路脻脰陇潞脜脗毛脦禄脢媒虏禄露脭');
+insert into Ems_applyModifyLog values('0001','2008180503','2012-2-9 12:50:50','2012-2-12 12:50:50','脦麓脥篓鹿媒','ems_student','0002','脨脮脙没赂帽脢陆虏禄露脭');
 
-insert into Ems_applyModifyLog values('0003','2008180501',TO_DATE('2012-2-15 12:50:50','YYYY-MM-DD HH24:MI:SS'),TO_DATE('2012-2-17 12:50:50','YYYY-MM-DD HH24:MI:SS'),'已通过','ems_student','0001',null);
-insert into Ems_applyModifyLog values('0004','0002',TO_DATE('2012-2-23 12:50:50','YYYY-MM-DD HH24:MI:SS'),TO_DATE('2012-2-25 12:50:50','YYYY-MM-DD HH24:MI:SS'),'已通过','ems_teacher','0001',null);
+insert into Ems_applyModifyLog values('0003','2008180501','2012-2-15 12:50:50','2012-2-17 12:50:50','脪脩脥篓鹿媒','ems_student','0001',null);
+insert into Ems_applyModifyLog values('0004','0002','2012-2-23 12:50:50','2012-2-25 12:50:50','脪脩脥篓鹿媒','ems_teacher','0001',null);
 
 
 
@@ -353,32 +338,32 @@ create table ems_systemset(
        timestart timestamp,              
        timeend timestamp,                 
        remarks varchar(500)              
-)
-insert into ems_systemset　　values('0001','老师添加课程时间设置',TO_DATE('2012-3-1 12:00:00','YYYY-MM-DD HH24:MI:SS'),TO_DATE('2012-6-2 12:00:00','YYYY-MM-DD HH24:MI:SS'),null);
-insert into ems_systemset　　values('0002','老师添加毕业设计时间设置',TO_DATE('2012-1-1 12:00:00','YYYY-MM-DD HH24:MI:SS'),TO_DATE('2012-6-2 12:00:00','YYYY-MM-DD HH24:MI:SS'),null);
-insert into ems_systemset　　values('0003','老师录入课程成绩时间设置',TO_DATE('2012-3-1 12:00:00','YYYY-MM-DD HH24:MI:SS'),TO_DATE('2012-6-2 12:00:00','YYYY-MM-DD HH24:MI:SS'),null);
-insert into ems_systemset　　values('0004','老师录入毕业设计成绩时间设置',TO_DATE('2012-4-1 12:00:00','YYYY-MM-DD HH24:MI:SS'),TO_DATE('2012-6-2 12:00:00','YYYY-MM-DD HH24:MI:SS'),null);
-insert into ems_systemset　　values('0005','学生选课时间设置',TO_DATE('2012-3-3 12:00:00','YYYY-MM-DD HH24:MI:SS'),TO_DATE('2012-6-2 12:00:00','YYYY-MM-DD HH24:MI:SS'),null);
-insert into ems_systemset　　values('0006','学生毕业设计选题时间设置',TO_DATE('2012-1-3 12:00:00','YYYY-MM-DD HH24:MI:SS'),TO_DATE('2012-6-2 12:00:00','YYYY-MM-DD HH24:MI:SS'),null);
+);
+insert into ems_systemset values('0001','脌脧脢娄脤铆录脫驴脦鲁脤脢卤录盲脡猫脰脙','2012-3-1 12:00:00','2012-6-2 12:00:00',null);
+insert into ems_systemset values('0002','脌脧脢娄脤铆录脫卤脧脪碌脡猫录脝脢卤录盲脡猫脰脙','2012-1-1 12:00:00','2012-6-2 12:00:00',null);
+insert into ems_systemset values('0003','脌脧脢娄脗录脠毛驴脦鲁脤鲁脡录篓脢卤录盲脡猫脰脙','2012-3-1 12:00:00','2012-6-2 12:00:00',null);
+insert into ems_systemset values('0004','脌脧脢娄脗录脠毛卤脧脪碌脡猫录脝鲁脡录篓脢卤录盲脡猫脰脙','2012-4-1 12:00:00','2012-6-2 12:00:00',null);
+insert into ems_systemset values('0005','脩搂脡煤脩隆驴脦脢卤录盲脡猫脰脙','2012-3-3 12:00:00','2012-6-2 12:00:00',null);
+insert into ems_systemset values('0006','脩搂脡煤卤脧脪碌脡猫录脝脩隆脤芒脢卤录盲脡猫脰脙','2012-1-3 12:00:00','2012-6-2 12:00:00',null);
 
 
 create table ems_message(
-  idnum    varchar(20) primary key,  　
-  sidnum   varchar(20), 　　　　　　　 
-  tidnum   varchar(20),    　　　　　　
-  title  varchar(500),   　　　　　　  
-  content  varchar(500),   　　　　　　
-  mtime    timestamp,       　　　　　　
-  status   varchar(20),    　　　　　　
-  rcontent varchar(500),   　　　　　　
-  rtime    timestamp,       　　　　　　
+  idnum    varchar(20) primary key, 
+  sidnum   varchar(20), 
+  tidnum   varchar(20),  
+  title  varchar(500),  
+  content  varchar(500),   
+  mtime    timestamp,       
+  status   varchar(20),   
+  rcontent varchar(500),   
+  rtime    timestamp,   
   remark   varchar(100)                
-)
+);
 
-insert into ems_message values('0001','2008180501','0001','留言标题x','留言内容x',TO_DATE('2012-1-3 12:00:00','YYYY-MM-DD HH24:MI:SS'),'未回复',null,null,null);
-insert into ems_message values('0002','2008180502','0001','留言标题y','留言内容d',TO_DATE('2012-1-3 12:00:00','YYYY-MM-DD HH24:MI:SS'),'未回复',null,null,null);
-insert into ems_message values('0003','2008180501','0001','留言标题z','留言内容e',TO_DATE('2012-1-3 12:00:00','YYYY-MM-DD HH24:MI:SS'),'已回复','回复内容2',TO_DATE('2012-1-3 15:00:00','YYYY-MM-DD HH24:MI:SS'),null);
-insert into ems_message values('0004','2008180502','0001','留言标题a','留言内容e',TO_DATE('2012-1-3 12:00:00','YYYY-MM-DD HH24:MI:SS'),'已回复','回复内容e',TO_DATE('2012-1-3 15:00:00','YYYY-MM-DD HH24:MI:SS'),null);
+insert into ems_message values('0001','2008180501','0001','脕么脩脭卤锚脤芒x','脕么脩脭脛脷脠脻x','2012-1-3 12:00:00','脦麓禄脴赂麓',null,null,null);
+insert into ems_message values('0002','2008180502','0001','脕么脩脭卤锚脤芒y','脕么脩脭脛脷脠脻d','2012-1-3 12:00:00','脦麓禄脴赂麓',null,null,null);
+insert into ems_message values('0003','2008180501','0001','脕么脩脭卤锚脤芒z','脕么脩脭脛脷脠脻e','2012-1-3 12:00:00','脪脩禄脴赂麓','禄脴赂麓脛脷脠脻2','2012-1-3 15:00:00',null);
+insert into ems_message values('0004','2008180502','0001','脕么脩脭卤锚脤芒a','脕么脩脭脛脷脠脻e','2012-1-3 12:00:00','脪脩禄脴赂麓','禄脴赂麓脛脷脠脻e','2012-1-3 15:00:00',null);
 create table ems_gFlowConfi(
  idnum varchar(20) primary key,      
  sidnum varchar(20),          
@@ -387,18 +372,18 @@ create table ems_gFlowConfi(
  grade varchar(5),            
  remark varchar(100)        
  
-)
+);
 
-insert into ems_gFlowConfi values('0001','2008180501','学生选题','已完成',null,null);
-insert into ems_gFlowConfi values('0002','2008180501','需求调查，文档编写','进行中',null,null);
-insert into ems_gFlowConfi values('0003','2008180501','毕业设计原型开发',null,null);
-insert into ems_gFlowConfi values('0004','2008180501','毕业设计开发完成','未开始',null,null);
-insert into ems_gFlowConfi values('0005','2008180501','论文编写','未开始',null,null);
-insert into ems_gFlowConfi values('0006','2008180502','学生选题','进行中',null,null);
-insert into ems_gFlowConfi values('0007','2008180502','需求调查，文档编写','未开始',null,null);
-insert into ems_gFlowConfi values('0008','2008180502','毕业设计原型开发','未开始',null,null);
-insert into ems_gFlowConfi values('0009','2008180502','毕业设计开发完成','未开始',null,null);
-insert into ems_gFlowConfi values('0010','2008180502','论文编写','未开始',null,null);
+insert into ems_gFlowConfi values('0001','2008180501','脩搂脡煤脩隆脤芒','脪脩脥锚鲁脡',null,null);
+insert into ems_gFlowConfi values('0002','2008180501','脨猫脟贸碌梅虏茅拢卢脦脛碌碌卤脿脨麓','陆酶脨脨脰脨',null,null);
+insert into ems_gFlowConfi values('0003','2008180501','卤脧脪碌脡猫录脝脭颅脨脥驴陋路垄', '脪脩脥锚鲁脡', null,null);
+insert into ems_gFlowConfi values('0004','2008180501','卤脧脪碌脡猫录脝驴陋路垄脥锚鲁脡','脦麓驴陋脢录',null,null);
+insert into ems_gFlowConfi values('0005','2008180501','脗脹脦脛卤脿脨麓','脦麓驴陋脢录',null,null);
+insert into ems_gFlowConfi values('0006','2008180502','脩搂脡煤脩隆脤芒','陆酶脨脨脰脨',null,null);
+insert into ems_gFlowConfi values('0007','2008180502','脨猫脟贸碌梅虏茅拢卢脦脛碌碌卤脿脨麓','脦麓驴陋脢录',null,null);
+insert into ems_gFlowConfi values('0008','2008180502','卤脧脪碌脡猫录脝脭颅脨脥驴陋路垄','脦麓驴陋脢录',null,null);
+insert into ems_gFlowConfi values('0009','2008180502','卤脧脪碌脡猫录脝驴陋路垄脥锚鲁脡','脦麓驴陋脢录',null,null);
+insert into ems_gFlowConfi values('0010','2008180502','脗脹脦脛卤脿脨麓','脦麓驴陋脢录',null,null);
 
 
 
@@ -409,8 +394,8 @@ create table Ems_workerType(
        
        );
 
-insert into Ems_workerType values('0001','毕业设计',null);
-insert into Ems_workerType values('0002','课堂作业',null);
+insert into Ems_workerType values('0001','卤脧脪碌脡猫录脝',null);
+insert into Ems_workerType values('0002','驴脦脤脙脳梅脪碌',null);
 
 
 
