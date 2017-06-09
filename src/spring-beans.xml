@@ -13,12 +13,12 @@
            http://www.springframework.org/schema/tx 
            http://www.springframework.org/schema/tx/spring-tx-2.5.xsd">
            
-	<bean
+<!-- 	<bean
 		class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
 		<property name="locations">
 			<value>classpath:db.properties</value>
 		</property>
-	</bean>
+	</bean> -->
 
 	<!-- <bean id="dataSource" destroy-method="close"
 		class="org.apache.commons.dbcp.BasicDataSource">
@@ -47,13 +47,13 @@
 		</property>
 		 <property name="packagesToScan">
 			<list>
-				<value>${oracle.package}</value>
+				<value>cn.edu.management.vo.voImpl</value>
 			</list>
 		</property>
 		<property name="hibernateProperties">
 			<props>
 				<prop key="hibernate.dialect">
-					${oracle.hibernate.dialect}
+					org.hibernate.dialect.SQLServerDialect
 				</prop>
 				<prop key="hibernate.show_sql">true</prop>
 				<prop key="hibernate.format_sql">true</prop>
