@@ -1,0 +1,261 @@
+﻿<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.1.7//EN"
+	"http://struts.apache.org/dtds/struts-2.1.7.dtd">
+<struts>
+		<!--突破上传文件大小的限制，默认下它最大只有2MB，第七位表示MB -->
+	<constant name="struts.multipart.maxSize" value="100701096"></constant>
+	
+	
+	<package name="emsys" extends="struts-default">
+	
+		<action name="userAction_*" class="userAction" method="{1}">
+			<result name="success">success.jsp</result>
+			<result name="failer">/login/login.jsp</result>
+			<result name="managerLoginSuccess">/manager3/index.jsp</result>
+			<result name="teacherLoginSuccess">/teacher/index.jsp</result>
+			<result name="studentLoginSuccess">/student/index.jsp</result>
+			
+			
+		</action>
+		
+		<action name="managerAction_*" class="managerAction" method="{1}">
+			<result name="success">success.jsp</result>
+			<!-- manager -->
+			<result name="PersonInformationQuery">/manager3/files/PersonInformationQuery.jsp</result>
+			  <result name="successPWD">/manager3/files/updatePwdSuccess.jsp</result>
+			  <result name="prePasswordWorng">/manager3/files/ModifyPassWord.jsp</result>
+			  
+			<result name="addManagerSuccess" type="redirect">/managerAction_listManager.action</result>
+			<result type="redirect" name="updateManagerSuccess">/managerAction_listModifyManager.action</result>
+			<result name="getMaxIdForAddManager">/manager3/files/addManager.jsp</result>
+			<result name="listManager">/manager3/files/listManger.jsp</result>
+			<result name="ListDeleteManager">/manager3/files/deleteManager.jsp</result>
+			<result type="redirect" name="deleteMangerSuccess">managerAction_ListDeleteManager.action</result>
+			<result name="listModifyManager">/manager3/files/listModifyManager.jsp</result>
+			<result name="showManagerForModify">/manager3/files/modifyManager.jsp</result>
+			
+			<!-- teacher -->
+			<result name="listTeacher">/manager3/files/listTeacher.jsp</result>
+			<result name="getMaxIdForAddTeacher">/manager3/files/addTeacher.jsp</result>
+			<result name="addTeacherSuccess" type="redirect">/managerAction_listTeacher.action</result>
+			<result name="ListDeleteTeacher">/manager3/files/deleteTeacher.jsp</result>
+			<result type="redirect" name="deleteTeacherSuccess">managerAction_ListDeleteTeacher.action</result>
+			<result name="listModifyTeacher">/manager3/files/listModifyTeacher.jsp</result>
+			<result name="showTeacherForModify">/manager3/files/modifyTeacher.jsp</result>
+			<result type="redirect" name="updateTeacherSuccess">/managerAction_listModifyTeacher.action</result>
+			
+			<!-- student -->
+			<result name="listStudent">/manager3/files/listStudent.jsp</result>
+			<result name="ListDeleteStudent">/manager3/files/deleteStudent.jsp</result>
+			<result type="redirect" name="deleteStudentSuccess">managerAction_ListDeleteStudent.action</result>
+			   <!-- insert -->
+			<result name="getProfessionForAddStudent">/manager3/files/addStudent.jsp</result>
+			<result name="addStudentSuccess" type="redirect">/managerAction_listStudent.action</result>
+			   <!-- update -->
+			<result name="listModifyStudent">/manager3/files/listModifyStudent.jsp</result>
+			<result name="showStudentForModify">/manager3/files/modifyStudent.jsp</result>
+			<result type="redirect" name="updateStudentSuccess">/managerAction_listModifyStudent.action</result>
+			
+			<!-- 系统设置 -->
+			   <!-- 作品类型 -->			   
+			   <result name="WorkstypeManage">/manager3/files/workstypeManage.jsp</result>
+			   <result type="redirect" name="deleteWorkstypeSuccess">managerAction_WorksTypeManage.action</result>
+			   <result name="addWorkstypeSuccess" type="redirect">/managerAction_WorksTypeManage.action</result>
+			   
+			   <!-- 课程类型 -->			   
+			   <result name="ClasstypeManage">/manager3/files/classtypeManage.jsp</result>
+			   <result type="redirect" name="deleteClasstypeSuccess">managerAction_ClassTypeManage.action</result>
+			   <result name="addClasstypeSuccess" type="redirect">/managerAction_ClassTypeManage.action</result>
+			   
+			   <!-- 专业管理 -->			   
+			   <result name="ProfessionManage">/manager3/files/professionManage.jsp</result>
+			   <result type="redirect" name="deleteProfessionSuccess">managerAction_ProfessionManage.action</result>
+			   <result name="addProfessionSuccess" type="redirect">/managerAction_ProfessionManage.action</result>
+			   
+			    <!-- 老师添加课程时间设置 -->	
+			     <result name="teacherAddCourse">/manager3/files/teacherAddCourse.jsp</result>
+			      <result name="updateTeacherAddCourseSucc">/manager3/files/updateTeacherAddCourseSucc.jsp</result>
+			    
+			    <!-- 已废弃,老师录入成绩时间设置-->	
+			     <result name="teacherInputGrade">/manager3/files/teacherInputGrade.jsp</result>
+			        <result name="updateTeacherInputGradeSucc">/manager3/files/updateteacherInputGrade.jsp</result>
+			     
+			    <!-- 已废弃,学生选课时间设置 -->	
+			    <result name="studentTakeCourse">/manager3/files/studentTakeCourse.jsp</result>
+			        <result name="updateStudentTakeCourseSucc">/manager3/files/updatestudentTakeCourse.jsp</result>
+			        
+			   <!-- 审核请求管理-->	
+			   <result name="auditStudentInfor">/manager3/files/auditStudentInfor.jsp</result>
+			   <result name="auditTeacherInfor">/manager3/files/auditTeacherInfor.jsp</result>
+			   <result name="auditStudentView">/manager3/files/auditStudentView.jsp</result>
+			   <result name="auditTeacherView">/manager3/files/auditTeacherView.jsp</result>
+			   <result name="auditSuccess">/manager3/files/auditSuccess.jsp</result>
+			   
+			      <result name="searchStudentInfor">/manager3/files/searchStudentInfor.jsp</result>
+			   <result name="searchTeacherInfor">/manager3/files/searchTeacherInfor.jsp</result>
+		</action>
+		
+		
+			<action name="teacherAction_*" class="teacherAction" method="{1}">
+			<result name="success">success.jsp</result>
+			<!-- 个人信息维护 -->
+			  <!-- 个人信息查看 -->
+			<result name="PersonInformationQuery">/teacher/PersonInformationQuery.jsp</result>
+		    <result name="updateTeacherPersonInfor">/teacher/RePersonInformationQuery.jsp</result>
+		    <!-- 修改密码 -->
+		    <result name="prePasswordWorng">/teacher/ModifyPassWord.jsp</result>
+		    <result name="updatePwdSuccess">/teacher/updatePwdSuccess.jsp</result>
+		    
+		        <!-- 毕业设计管理 -->
+		    <!-- 显示已上传毕业设计 -->
+		    <result name="displayAlreadyAdd">/teacher/listAlreadyAdd.jsp</result>
+		    <!-- 上传毕业设计 -->
+		    <result name="AddGraduationTitle">/teacher/AddGraduationTitle.jsp</result>
+		    <result name="AddGraduationTitleSucc">/teacher/AddGraduationTitleSucc.jsp</result>
+		    <result name="fileUpLoadTestAdd" type="redirect">teacherAction_getMaxIdNumAboutGraduate.action</result>
+		    
+		    <!-- 修改毕业设计 -->
+		    <result name="updateAlreadyAdd">/teacher/updateAlreadyAdd.jsp</result>
+		    <result name="showGraduationForModify">/teacher/showGraduationForModify.jsp</result>
+		    <result name="updateGraduationTitleSucc">/teacher/updateGraduationTitleSucc.jsp</result>
+		    <!-- 删除毕业设计 -->
+		    <result name="deleteAlreadyAdd">/teacher/deleteAlreadyAdd.jsp</result>
+		    <result name="disdeleteAlreadyAdd">/teacher/deleteGraduationTitleSucc.jsp</result>
+		    <!-- 老师文件管理 -->
+		    <result name="teacherFileManage">teacher/teacherFileManage.jsp</result>	
+		    <result name="listTeacherFile">teacher/listTeacherFile.jsp</result>    		    	
+		    <result name="fileUpLoadTestSucc">teacher/fileUpLoadTestSucc.jsp</result>
+	        <result name="fileUpLoadTest">teacher/fileUpLoadTest.jsp</result>
+		    <result name="delTeacherUpFileSucc">teacher/delTeacherUpFileSucc.jsp</result>
+		 
+		      <!-- 学生信息查询 -->
+		      <result name="studentInforSearch">teacher/studentInforSearch.jsp</result>		      
+		      
+		       <!-- 学生作品管理 -->
+		       <result name="studentFileManage">teacher/studentFileManage.jsp</result>
+		       <result name="StudentFileList">teacher/StudentFileList.jsp</result>
+		       <result name="delStudentUpFileSucc">teacher/delStudentUpFileSucc.jsp</result>
+		        <!-- 学生成绩录入-->
+		        <result name="disStudentGradeInput">teacher/disStudentGradeInput.jsp</result>
+		        <result type="redirect" name="studentGradeInputSubmit">teacherAction_studentGradeInput.action</result>
+		        <!-- 学生成绩修改 -->
+		        <result name="studentGradeupdate">teacher/disStudentGradeUpdate.jsp</result>
+		        <result type="redirect" name="studentGradeUpdateSubmit">teacherAction_studentGradeupdate.action</result>
+		          <!-- 学生成绩查询-->	    
+		       <result name="studentGradeSearch">teacher/studentGradeSearch.jsp</result>
+		       
+		        <!-- 课程管理 -->
+		   <result name="displayAlreadyAddCourse">teacher/listAlreadyAddCourse.jsp</result>
+		    <result name="AddCourse">teacher/AddCourse.jsp</result>
+		    <result name="displayupdateCourse">teacher/listupdateCourse.jsp</result>
+		    <result name="disupdateCoursePerson">teacher/updateCourse.jsp</result>
+		    <result name="deleteAlreadyAddCourse">teacher/listdeleteCourse.jsp</result>
+		     <result name="studentInforSearchCourse">teacher/studentInforSearchCourse.jsp</result>
+		     <result name="studentGradeSearchCourse">teacher/studentGradeSearchCourse.jsp</result>
+		      <result name="studentGradeSearchCourseCon">teacher/studentGradeSearchCourseCon.jsp</result>
+		     <result name="disStudentCourseGradeInput">teacher/disStudentCourseGradeInput.jsp</result>
+		    <result type="redirect" name="studentCourseGradeInputSubmit">teacherAction_studentCourseGradeInput.action</result>
+		     <result name="studentCourseGradeupdate">teacher/disStudentCourseGradeUpdate.jsp</result>
+		     <result type="redirect" name="studentCourseGradeUpdateSubmit">teacherAction_studentCourseGradeupdate.action</result>
+		  
+		    
+		    
+		    <!-- 申请管理 -->
+		    <result name="addModifyApplycheck">/teacher/addModifyApply.jsp</result>
+		    <result name="checkWrong">/teacher/addModifyApplycheckResult.jsp</result>
+		    <result name="insertApplyInforSuccess">/teacher/insertApplyInforSuccess.jsp</result>
+		    <result name="displayAlreadyApplyStatus">/teacher/displayAlreadyApplyStatus.jsp</result>
+		    
+		    <!--审核管理  -->
+		       <result name="auditGraduationInfor">teacher/auditGraduationInfor.jsp</result>
+		       <result name="disAuditGraduationInfor">teacher/disAuditGraduationInfor.jsp</result>
+		       <result name="teacherAuditGraduationSucc">teacher/teacherAuditGraduationSucc.jsp</result>
+		       <result name="disAuditGraduationStatus">teacher/disAuditGraduationStatus.jsp</result>
+		       
+		      <!--留言管理  -->   
+		       <result name="disAlreadyReplyMessage">teacher/disAlreadyReplyMessage.jsp</result>
+		       <result name="disReplyMessage">teacher/disReplyMessage.jsp</result>
+		       <result name="disReplyMessageSubmit" type="redirect">teacherAction_disReplyMessage.action</result>
+		       
+		       <result name="noAddCourse">teacher/noAddCourse.jsp</result>
+		       <result name="noAddGraduation">teacher/noAddGraduation.jsp</result>
+		       <result name="nostudentGradeInputx">teacher/nostudentGradeInputx.jsp</result>
+		       <result name="nostudentCourseGradeInputx">teacher/nostudentCourseGradeInputx.jsp</result>
+		       <result name="studentGradeInputx">teacher/studentGradeInput.jsp</result>
+		       <result name="studentCourseGradeInputx">teacher/studentCourseGradeInput.jsp</result>
+		</action>
+		
+		
+	    <action name="studentAction_*" class="studentAction" method="{1}">
+			<result name="success">success.jsp</result>
+			<!-- 信息维护 -->
+			  <!-- 个人信息 -->
+			<result name="listStudent">/student/index/InformationMaintenance/listStudent.jsp</result>
+			<result name="displayPersonInformation">/student/index/InformationMaintenance/displayPersonInformation.jsp</result>
+			<!-- 修改密码 -->
+			<result name="prePasswordWrong">/student/index/InformationMaintenance/modifyPassword.jsp</result>
+		    <result name="success">/student/index/InformationMaintenance/success.jsp</result>
+		    
+		    <!-- 信息查询 -->
+		    <!-- 在校成绩查询 -->
+		    <result name="listScore">/student/index/InformationQuery/listScore.jsp</result>
+		    <!-- 选课情况查询 -->
+		    <result name="listAlreadyCourse">/student/index/InformationQuery/listAlreadyCourse.jsp</result>
+		    <!-- 当前选课查询 -->
+		    <result name="currentSelectedCourse">/student/index/InformationQuery/currentSelectedCourse.jsp</result>
+		    
+		    
+		    <!-- 网上选课 -->
+		    <!-- 选修课程 -->
+		    <result name="notAvailable">/student/index/notAvailable.jsp</result>
+		    <result name="listCourse">/student/index/SelectCourseOnline/listCourse.jsp</result>
+		    <result name="updown">student/index/upDown.jsp</result>
+		    <result name="listDownCourse">/student/index/SelectCourseOnline/listDownCourse.jsp</result>
+		    
+		    <!-- 毕业设计管理 -->
+		    <!-- 作品管理 -->
+		    <result name="projectManagement">/student/index/ProjectManagement/projectManagement.jsp</result>
+		    <result name="fileLoadSuccess">/student/index/ProjectManagement/fileLoadSuccess.jsp</result>
+		    <result name="deleteFileSuccess">/student/index/ProjectManagement/deleteFileSuccess.jsp</result>
+		    <!-- 毕业设计选题 -->
+		    <result name="selectGraduationProject">/student/index/ProjectManagement/selectGraduationProject.jsp</result>
+			<result name="addGraduateProjectSuccess">/student/index/ProjectManagement/addGraduateSuccess.jsp</result>
+			<result name="alreadySelected">/student/index/ProjectManagement/alreadySelected.jsp</result>
+			<result name="alreadyFull">/student/index/ProjectManagement/alreadyFull.jsp</result>
+			<result name="graduationDetail">/student/index/ProjectManagement/graduationDetail.jsp</result>
+			<result name="showHTML">/fileManage/HTMLfile/${htmlFile}</result>
+			
+			<!-- 显示我的毕业设计 -->
+			<result name="listMyProject">/student/index/ProjectManagement/listMyProject.jsp</result>
+			<result name="listMyProjecttt">/student/index/ProjectManagement/listMyProjecttt.jsp</result>
+			<result name="haveNotProject">/student/index/ProjectManagement/haveNotProject.jsp</result>
+			<!-- 删除我的毕业设计 -->
+			<result name="deleteGraduationSuccess">/student/index/ProjectManagement/deleteGraduationSuccess.jsp</result>
+			<!-- 自拟毕业设计题目 -->
+			<result name="addMyTitle">/student/index/ProjectManagement/addMyTitle.jsp</result>
+			<result name="addTitleSuccess">/student/index/ProjectManagement/addTitleSuccess.jsp</result>
+			
+			
+			<!-- 留言管理 -->
+			<!-- 添加留言 -->
+			<result name="addMessage">/student/index/MessageBoard/addMessage.jsp</result>
+			<result name="addMessageSuccess">/student/index/MessageBoard/addMessageSuccess.jsp</result>
+			<!-- 查看留言 -->
+			<result name="showMessage">/student/index/MessageBoard/showMessage.jsp</result>
+			<!-- 查看已回复的留言 -->
+			<result name="showReply">/student/index/MessageBoard/showReply.jsp</result>
+			<result name="showReplyDetail">/student/index/MessageBoard/showReplyDetail.jsp</result>
+			
+			
+			
+			<!-- 申请管理 -->
+			<!-- 添加申请 -->
+			<result name="modifyStudentInfo">/student/index/ApplicationManagement/modifyStudentInfo.jsp</result>
+			<result name="CannotAddApply">/student/index/ApplicationManagement/CannotAddApply.jsp</result>
+			<result name="addModifyApplySuccess">/student/index/ApplicationManagement/addModifyApplySuccess.jsp</result>
+			<!-- 查看申请 -->
+			<result name="listModifyApplication">/student/index/ApplicationManagement/listModifyApplication.jsp</result>
+			<result name="listModifyApplicationSelf">/student/index/ApplicationManagement/listModifyApplicationSelf.jsp</result>
+		</action>
+	</package>
+</struts>	
